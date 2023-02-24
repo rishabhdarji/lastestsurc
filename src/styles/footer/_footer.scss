@@ -1,0 +1,424 @@
+#velaFooter {
+   color: #333;
+   background-color: #a4d5dc;
+   font-size: 13px;
+}
+
+// @media (min-width: 1220px){
+// .container {
+//     max-width: 1220px;
+// }
+// }
+
+// @media (min-width: 992px){
+// .container {
+//     max-width: 990px;
+// }
+// }
+
+// @media (min-width: 768px){
+// .container {
+//     max-width: 760px;
+// }
+// }
+
+// .container {
+//     width: 100%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
+
+#velaFooter .footerCopyRight {
+   border-top: 1px solid rgba(255,255,255,.1);
+}
+// .container {
+//    width: 100%;
+//    margin-right: auto;
+//    margin-left: auto;
+//    padding-left: 15px;
+//    padding-right: 15px;
+// }
+
+#velaFooter .footerCopyRightInner {
+   padding: 30px 0 15px;
+}
+
+#velaFooter .velaCopyRight {
+   font-family: Raleway;
+   font-size: 11px;
+   font-weight: 500;
+   text-transform: uppercase;
+   float: left;
+}
+
+#velaFooter .logo_payment {
+   float: right;
+   margin-bottom: 15px;
+}
+
+
+ul.payment-icons.custom {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+ul.payment-icons.custom li {
+   margin-left: 5px;
+}
+
+svg:not(:root) {
+   overflow: hidden;
+}
+
+#velaFooter .velaFooterSocial {
+   margin-bottom: 30px;
+}
+
+.velaFooterTitle {
+   color: #333;
+   font-size: 15px;
+   margin: 0 0 20px;
+   padding: 10px 0;
+   font-weight: 600;
+   font-family: Raleway;
+   text-transform: uppercase;
+   position: relative;
+}
+
+.text-center {
+   text-align: center;
+}
+
+#velaFooter .velaListSocial {
+   padding: 0;
+   border: 1px solid #464646;
+   display: flex;
+   margin-bottom: 0;
+}
+
+.list-inline {
+   padding-left: 0;
+   list-style: none;
+   margin-left: -5px;
+}
+.list-unstyled {
+   padding-left: 0;
+   list-style: none;
+}
+
+#velaFooter .velaListSocial>li:first-child {
+   border-left: 0;
+}
+
+#velaFooter .velaListSocial>li {
+   border-left: 1px solid #464646;
+   display: inline-block;
+   width: 50%;
+}
+.list-inline>li {
+   display: inline-block;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.rowFlexMargin {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+
+.rowFlex {
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   -ms-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+
+#velaFooter .vela-contactinfo {
+   padding-right: 20px;
+}
+
+#velaFooter .vela-contactinfo {
+   font-style: inherit;
+   font-size: 13px;
+}
+.velaBlock {
+   margin-bottom: 30px;
+}
+
+#velaFooter .vela-contactinfo {
+   font-style: inherit;
+   font-size: 13px;
+   
+}
+
+.velaLogoLink {
+   display: flex;
+   align-items: center;
+   max-width: 100%;
+   font-size: 20px;
+   vertical-align: middle;
+}
+
+.product-card__image {
+   position: relative;
+   overflow: hidden;
+}
+
+#velaFooter .vela-contactinfo .contactinfo-address, #velaFooter .vela-contactinfo .contactinfo-phone, #velaFooter .vela-contactinfo .contactinfo-email {
+   padding-left: 30px;
+   margin-bottom: 10px;
+   position: relative;
+   color: #fff;
+}
+
+#velaFooter .vela-contactinfo .fa {
+   position: absolute;
+   left: 0;
+   top: 4px;
+   font-size: 16px;
+   color: #e09878;
+}
+.fa {
+   display: inline-block;
+   font: 14px/1 FontAwesome;
+   font-size: inherit;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   color: #e09878;
+}
+
+#velaFooter .vela-contactinfo .contactinfo-address, #velaFooter .vela-contactinfo .contactinfo-phone, #velaFooter .vela-contactinfo .contactinfo-email {
+   padding-left: 30px;
+   margin-bottom: 10px;
+   position: relative;
+   color: #fff;
+}
+#velaFooter .velaListSocial>li .btn-social {
+   color: #333;
+   display: block;
+   font-family: Raleway;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 18px 0;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   -webkit-transition: all .3s ease-in-out 0s;
+   -o-transition: all .3s ease-in-out 0s;
+   transition: all .3s ease-in-out 0s;
+}
+.velaFooterTitle {
+   color: #333;
+   font-size: 15px;
+   margin: 0 0 20px;
+   padding: 10px 0;
+   font-weight: 600;
+   font-family: Raleway;
+   text-transform: uppercase;
+   position: relative;
+}
+
+.list-unstyled {
+   padding-left: 0;
+   list-style: none;
+}
+
+#velaFooter #vela-newsletter {
+   margin: 0 0 30px;
+}
+
+.velaFooterTitle {
+   color: #333;
+   font-size: 15px;
+   margin: 0 0 20px;
+   padding: 10px 0;
+   font-weight: 600;
+   font-family: Raleway;
+   text-transform: uppercase;
+   position: relative;
+}
+
+#velaFooter #vela-newsletter .newsletterDescription {
+   margin-bottom: 25px;
+   font-style: inherit;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+#velaFooter .velaListSocial>li .btn-social:hover {
+   color: #e09878;
+}
+
+#velaFooter .velaListSocial>li .btn-social {
+   color: #333;
+   display: block;
+   font-family: Raleway;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 18px 0;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   -webkit-transition: all .3s ease-in-out 0s;
+   -o-transition: all .3s ease-in-out 0s;
+   transition: all .3s ease-in-out 0s;
+}
+a:active, button:active, .btn:active {
+   outline: none;
+}
+a:hover, a:focus {
+   color: #e09878;
+}
+a:active, a:hover {
+   outline: 0;
+}
+a, button, [role=button], input, label, select, textarea {
+   touch-action: manipulation;
+}
+a {
+   color: #222;
+   text-decoration: none;
+}
+a {
+   background-color: transparent;
+}
+
+#velaFooter #vela-newsletter #newsletter-input, #velaFooter #vela-newsletter #mail {
+   background: transparent;
+   border: 1px solid #464646;
+   height: 44px;
+   margin-bottom: 25px;
+}
+
+.form-control {
+   display: block;
+   width: 100%;
+   height: 40px;
+   padding: 9px 20px;
+   font-size: 14px;
+   line-height: 1.45;
+   color: #666;
+   background-color: #fff;
+   background-image: none;
+   border: 1px solid #a4d5dc;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#velaFooter #vela-newsletter .btnNewsletter {
+   display: block;
+   width: 100%;
+   height: 44px;
+   background: #e09878;
+   border-color: #e09878;
+   color: #fff;
+}
+
+.btn {
+   display: inline-block;
+   margin-bottom: 0;
+   text-align: center;
+   vertical-align: middle;
+   touch-action: manipulation;
+   font-family: Raleway;
+   cursor: pointer;
+   background-image: none;
+   border: 1px solid transparent;
+   white-space: nowrap;
+   padding: 9px 20px;
+   font-size: 14px;
+   line-height: 1.45;
+   border-radius: 0;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#velaFooter .velaFooterSocial {
+   margin-bottom: 30px;
+}
+
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+#velaFooter .velaListSocial {
+   padding: 0;
+   border: 1px solid #464646;
+   display: flex;
+   margin-bottom: 0;
+}
+
+.list-inline {
+   padding-left: 0;
+   list-style: none;
+   margin-left: -5px;
+}
+.list-unstyled {
+   padding-left: 0;
+   list-style: none;
+}
+
+#velaFooter .velaListSocial>li:first-child {
+   border-left: 0;
+}
+#velaFooter .velaListSocial>li {
+   border-left: 1px solid #464646;
+   display: inline-block;
+   width: 50%;
+}
+.list-inline>li {
+   display: inline-block;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+
+#velaFooter .velaFooterLinks li a:hover {
+   color: #e09878;
+}
+#velaFooter .velaFooterLinks li a {
+   padding: 5px 0;
+   color: #333;
+   display: inline-block;
+   font-style: inherit;
+   font-size: 13px;
+}
+a:active, button:active, .btn:active {
+   outline: none;
+}
+a:hover, a:focus {
+   color: #e09878;
+}
+a:active, a:hover {
+   outline: 0;
+}
+a, button, [role=button], input, label, select, textarea {
+   touch-action: manipulation;
+}
+a {
+   color: #222;
+   text-decoration: none;
+}
+a {
+   background-color: transparent;
+}

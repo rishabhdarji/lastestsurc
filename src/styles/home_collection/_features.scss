@@ -1,0 +1,12 @@
+/* ==========================================================================
+   13.2 #HOME COLLECTION - FEATURES
+   ========================================================================== */
+.collection-features {
+   background: #f8f6f3;
+   padding-bottom: 110px;
+   padding-top: 25px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 70px;
+   }
+}

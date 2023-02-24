@@ -1,0 +1,313 @@
+/* ==========================================================================
+   #TABS
+   ========================================================================== */
+.tab {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 999;
+   visibility: hidden;
+   pointer-events: none;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   overflow: hidden;
+
+   &.active {
+      visibility: visible;
+      pointer-events: auto;
+
+      .tab__overlay {
+         opacity: 1;
+      }
+
+      .tab__content {
+         transform: none;
+         -webkit-transform: none;
+         -moz-transform: none;
+      }
+   }
+}
+
+.tab__overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.4);
+   opacity: 0;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+}
+
+.tab__content {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background: #fff;
+   max-height: 100vh;
+   overflow-y: scroll;
+   z-index: 9999;
+   width: 645px;
+   max-width: 100%;
+   padding: 50px 80px 75px 80px;
+   transform: translateX(100%);
+   -webkit-transform: translateX(100%);
+   -moz-transform: translateX(100%);
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+
+   @media (max-width: 991px) {
+      padding: 30px;
+   }
+}
+
+.tab__heading  {
+   padding: 0px 0px 40px 0px;
+   border-bottom: 1px solid #e9e9e9;
+   margin-bottom: 15px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 25px;
+      margin-bottom: 5px;
+   }
+}
+
+.tab__h3 {
+   font-size: 24px;
+   line-height: 1.2;
+   // font-family: "Jost";
+  font-family: "Raleway";
+   padding: 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      font-size: 18px;
+   }
+}
+
+.tab__close {
+   margin-left: auto;
+   padding-left: 20px;
+   text-align: right;
+}
+
+.tab__close--type-2 {
+   display: block;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.tab__description {
+   font-size: 16px;
+   line-height: 30px;
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      line-height: 22px;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      // font-family: "Jost";
+  font-family: "Raleway";
+      line-height: 1.2;
+      font-size: 30px;
+      padding: 40px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 25px;
+         font-size: 20px;
+      }
+   }
+
+   p {
+      padding: 25px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 15px;
+      }
+   }
+
+   ul {
+      padding: 25px 0px 0px 14px;
+      margin: 0px;
+      list-style: none;
+
+      @media (max-width: 991px) {
+         padding-top: 20px;
+      }
+
+      li {
+         position: relative;
+
+         &:before {
+            content: '-';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -14px;
+         }
+      }
+   }
+
+   .contact-page__form {
+      padding-top: 40px;
+
+      @media (max-width: 991px) {
+         padding-top: 25px;
+      }
+   }
+}
+
+.tab__features {
+   list-style: none;
+   padding: 30px 0px 0px 0px !important;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding-top: 20px !important;
+   }
+
+   li {
+      display: flex;
+      align-items: center;
+      padding: 4px 0px 0px 0px;
+
+      &:before {
+         display: none !important;
+      }
+
+      p {
+         width: 44px;
+         padding: 0px 10px 4px 0px;
+         margin: 0px;
+
+         @media (max-width: 991px) {
+            width: 40px;
+         }
+      }
+
+      span {
+         font-size: 14px;
+         letter-spacing: 0.5px;
+         text-transform: uppercase;
+         color: #000;
+
+         @media (max-width: 991px) {
+            font-size: 12px;
+         }
+      }
+   }
+}
+
+/* Review tab */
+#stamped-main-widget {
+   margin: 0px !important;
+
+   * {
+      font-family: 'Jost' !important;
+   }
+
+   .summary-rating-bar>div,
+   .stamped-review-avatar {
+      background: #928656!important;
+   }
+
+   ul.stamped-tabs li.active {
+      border-color: #928656 !important;
+      color: #928656!important;
+   }
+
+   .stamped-review-header-title {
+      font-family: 'Jost' !important;
+      font-size: 30px !important;
+      font-weight: 400 !important;
+
+      @media (max-width: 991px) {
+         font-size: 20px !important;
+      }
+   }
+
+   p.stamped-review-content-body {
+      line-height: 24px !important;
+   }
+
+   div[data-widget-style*=standard] .stamped-summary-starrating i:before {
+      font-size: 14px !important;
+   }
+
+   .stamped-summary-text-1 {
+      color: #000 !important;
+      font-family: 'Jost' !important;
+      font-size: 30px !important;
+      font-weight: 400 !important;
+   }
+
+   .stamped-summary[data-count='0'] {
+
+      .summary-overview {
+         display: none !important;
+      }
+   }
+
+   .fa-star-half-o:before, .fa-star-o:before, .fa-star:before, .stamped-fa-star-half-o:before, .stamped-fa-star-o:before, .stamped-fa-star:before {
+      font-size: 14px !important;
+   }
+
+   .stamped-summary-actions-clear, .stamped-summary-actions-mobile-filter, .stamped-summary-actions-newquestion, .stamped-summary-actions-newreview {
+      box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      border: none !important;
+      padding: 10px 20px!important;
+      font-size: 14px!important;
+      letter-spacing: .5px!important;
+      text-transform: uppercase!important;
+      color: #fff!important;
+      background: #928656!important;
+      text-align: center!important;
+      border-radius: 0!important;
+      -webkit-border-radius: 0px!important;
+      -moz-border-radius: 0px!important;
+      font-weight: 400!important;
+      line-height: 1.667!important;
+
+      @media (max-width: 991px) {
+         font-size: 13px !important;
+         padding: 9px 20px !important;
+      }
+
+      &:before {
+         display: none !important;
+      }
+   }
+
+   .stamped-summary-ratings {
+      display: none !important;
+   }
+
+   .stamped-summary-text-1 strong {
+      font-weight: 400 !important;
+   }
+
+   .stamped-container ul.stamped-tabs li.active {
+      font-weight: 400 !important; 
+      text-transform: uppercase !important;
+   }
+}

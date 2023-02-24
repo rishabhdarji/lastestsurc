@@ -1,0 +1,375 @@
+
+
+// /*********************************************************************************
+//     Template Name: Durotan - Minimalist & Modern Ecommerce React Template
+//     Version: 1.0
+// **********************************************************************************/
+
+// /* --------------------------------------------------
+// Table of Content:
+
+// 1. Google Fonts
+// 2. Basic Styles
+// 3. Layout styles
+// 4. Plugins styles
+// 5. Default header styles
+// 6. Default footer styles
+// 7. Home styles
+//    7.1 Featured collections styles
+//    7.2 About us styles
+//    7.3 Brands styles
+//    7.4 Default slider styles
+//    7.5 Instagram styles
+//    7.6 Our journal styles
+//    7.7 Our products styles
+// 8. Pages styles
+//    8.1 About styles
+//    8.2 Blog styles
+//    8.3 Blog with sidebar styles
+//    8.4 Checkout styles
+//    8.5 Collection styles
+//    8.6 Coming soon styles
+//    8.7 Contact styles
+//    8.8 Faq styles
+//    8.9 Login styles
+//    8.10 404 styles
+//    8.11 Order complete styles
+//    8.12 Page with breadcrumb image styles
+//    8.13 Post styles
+//    8.14 Shop categories styles
+//    8.15 Shopping cart styles
+//    8.16 Wishlist styles
+// 9. Product styles
+// 10. Popups styles
+//    10.1 Newsletter popup styles
+//    10.2 Quickview popup styles
+//    10.3 Search popup styles
+// 11. Home full width styles
+//    11.1 Full width Banners styles
+//    11.2 Full width Canvas cart styles
+//    11.3 Full width Canvas menu styles
+//    11.4 Full width footer styles
+//    11.5 Full width header styles
+//    11.6 Full width our journal styles
+//    11.7 Full width product tabs styles
+//    11.8 Full width slider styles
+// 12. Home modern styles
+//    12.1 Modern banners styles
+//    12.2 Modern deal week styles
+//    12.3 Modern footer styles
+//    12.4 Modern header styles
+//    12.5 Modern main banner styles
+//    12.6 Modern our journal styles
+//    12.7 Modern our products styles
+//    12.8 Modern perfect gift styles
+// 13. Home collection styles
+//    13.1 Collection banners styles
+//    13.2 Collection features styles
+//    13.3 Collection footer styles
+//    13.4 Collection header styles
+//    13.5 Collection our journal styles
+//    13.6 Collection our products styles
+//    13.7 Collection slider styles
+//    13.8 Collection video styles
+// 14. Home dark styles
+//    14.1 Dark banners styles
+//    14.2 Dark bestseller product styles
+//    14.3 Dark brands styles
+//    14.4 Dark footer styles
+//    14.5 Dark header styles
+//    14.6 Dark intro text styles
+//    14.7 Dark our products styles
+//    14.8 Dark slider styles
+//    14.9 Dark testimonials styles
+//    14.10 Dark video styles
+// 15. Home classic styles
+//    15.1 Classic banners styles
+//    15.2 Classic brands styles
+//    15.3 Classic collection banners styles
+//    15.4 Classic footer styles
+//    15.5 Classic header styles
+//    15.6 Classic intro text styles
+//    15.7 Classic limited edition styles
+//    15.8 Classic newsletter styles
+//    15.9 Classic our journal styles
+//    15.10 Classic our products styles
+// 16. Home best selling styles
+//    16.1 Best selling header styles
+//    16.2 Best selling slider styles
+// 17. Home sidebar styles
+//    17.1 Sidebar categories styles
+//    17.2 Sidebar footer styles
+//    17.3 Sidebar header styles
+//    17.4 Sidebar instagram styles
+//    17.5 Sidebar our products styles
+//    17.6 Sidebar product styles
+//    17.7 Sidebar testimonials styles
+// 18. Home minimal styles
+//    18.1 Minimal about styles
+//    18.2 Minimal footer styles
+//    18.3 Minimal header styles
+//    18.4 Minimal instagram styles
+//    18.5 Minimal our journal styles
+//    18.6 Minimal our products styles
+//    18.8 Minimal slider styles
+//    18.9 Minimal tweet styles
+// 19. Home shoppable styles
+//    19.1 Shoppable banners styles
+//    19.2 Shoppable features styles
+//    19.3 Shoppable footer styles
+//    19.4 Shoppable header styles
+//    19.5 Shoppable main banner styles
+//    19.6 Shoppable new in styles
+//    19.7 Shoppable our journal styles
+//    19.8 Shoppable our products styles
+//    19.9 Shoppable product styles
+//    19.10 Shoppable video styles
+// =======================================================================*/
+
+
+
+
+// @import 'TrueSustain/TrueSustain.scss';
+
+// @import 'Services/Services.scss';
+
+// @import 'Parallex/Parallex.scss';
+
+// @import 'Section10/Section10.scss';
+
+// @import 'Section6/Section6.scss';
+
+// @import 'home_full_width/HomeProducts1.scss';
+
+
+// @import 'ProductPage/ProductPage.scss';
+
+// @import 'BlogInner/BlogInner.scss';
+
+// @import 'podcast/Podcast.scss';
+
+// @import 'viewCart/ViewCart.scss';
+
+// @import 'Check1out/Check1out.scss';
+
+// @import 'About/About.scss';
+
+// @import 'Blog/Blog.scss';
+
+// @import 'Contact/Contact.scss';
+
+// @import 'Productcategory/Productcategory.scss';
+
+// @import 'checkout/checkout.scss';
+
+// /* ==========================================================================
+//    1. Google Fonts
+//    ========================================================================== */
+// @import 'font/_jost.scss';
+// @import 'font/_raleway.scss';
+// @import 'font/notosans.scss';
+// @import 'font/_line_icons.scss';
+// @import 'font/_marcellus.scss';
+
+// /* ==========================================================================
+//    2. Basic Styles
+//    ========================================================================== */
+// @import 'general/_body.scss';
+// @import 'general/_buttons.scss';
+// @import 'general/_heading.scss';
+// @import 'general/_hr.scss';
+// @import 'general/_html.scss';
+// @import 'general/_inputs.scss';
+// @import 'general/_links.scss';
+
+// /* ==========================================================================
+//    3. Layout styles
+//    ========================================================================== */
+// @import 'layout/_container.scss';
+// @import 'layout/_row.scss';
+
+// /* ==========================================================================
+//    4. Plugins styles
+//    ========================================================================== */
+
+// /* ==========================================================================
+//    5. Default header styles
+//    ========================================================================== */
+// @import 'header/_header.scss';
+
+// /* ==========================================================================
+//    6. Default footer styles
+//    ========================================================================== */
+// @import 'footer/_footer.scss';
+
+// /* ==========================================================================
+//    7. Home styles
+//    ========================================================================== */
+// @import 'home/_featured_collections.scss';
+// @import 'home/_home_about_us.scss';
+// @import 'home/_home_brands.scss';
+// @import 'home/_home_default_slider.scss';
+// @import 'home/_instagram.scss';
+// @import 'home/_our_journal.scss';
+// @import 'home/_our_products.scss';
+
+// /* ==========================================================================
+//    8. Pages styles
+//    ========================================================================== */
+// @import 'pages/_about.scss';
+// @import 'pages/_account.scss';
+// @import 'pages/_blog.scss';
+// @import 'pages/_blog_with_sidebar.scss';
+// @import 'pages/_challenger.scss';
+// @import 'pages/_checkout.scss';
+// @import 'pages/_collection.scss';
+// @import 'pages/_coming_soon.scss';
+// @import 'pages/_contact.scss';
+// @import 'pages/_faq.scss';
+// @import 'pages/_login.scss';
+// @import 'pages/_not_found.scss';
+// @import 'pages/_order_complete.scss';
+// @import 'pages/_page_with_breadcrumb_image.scss';
+// @import 'pages/_post.scss';
+// @import 'pages/_search.scss';
+// @import 'pages/_shop_categories.scss';
+// @import 'pages/_shopping_cart.scss';
+// @import 'pages/_wishlist.scss';
+
+// /* ==========================================================================
+//    9. Product styles
+//    ========================================================================== */
+// @import 'product/_accordion.scss';
+// @import 'product/_complete_your_outfit.scss';
+// @import 'product/_desktop_tabs.scss';
+// @import 'product/_frequently_bought_together.scss';
+// @import 'product/_product.scss';
+// @import 'product/_product_grid_item.scss';
+// @import 'product/_product_layout_2.scss';
+// @import 'product/_product_layout_3.scss';
+// @import 'product/_product_layout_4.scss';
+// @import 'product/_product_layout_5.scss';
+// @import 'product/_product_layout_6.scss';
+// @import 'product/_product_list_item.scss';
+// @import 'product/_related_products.scss';
+// @import 'product/_reviews.scss';
+// @import 'product/_sticky_add_to_cart.scss';
+// @import 'product/_tabs.scss';
+
+// /* ==========================================================================
+//    10. Popups styles
+//    ========================================================================== */
+// @import 'popups/_newsletter.scss';
+// @import 'popups/_quickview.scss';
+// @import 'popups/_search.scss';
+// @import 'popups/_size_guide.scss';
+
+// /* ==========================================================================
+//    11. Home full width styles
+//    ========================================================================== */
+// @import 'home_full_width/_banners.scss';
+// @import 'home_full_width/_canvas_cart.scss';
+// @import 'home_full_width/_canvas_menu.scss';
+// @import 'home_full_width/_footer.scss';
+// @import 'home_full_width/_header.scss';
+// @import 'home_full_width/_our_journal.scss';
+// @import 'home_full_width/_product_tabs.scss';
+// @import 'home_full_width/_slider.scss';
+
+// /* ==========================================================================
+//    12. Home modern styles
+//    ========================================================================== */
+// @import 'home_modern/_banners.scss';
+// @import 'home_modern/_deal_week.scss';
+// @import 'home_modern/_footer.scss';
+// @import 'home_modern/_header.scss';
+// @import 'home_modern/_main_banner.scss';
+// @import 'home_modern/_our_journal.scss';
+// @import 'home_modern/_our_products.scss';
+// @import 'home_modern/_perfect_gift.scss';
+
+// /* ==========================================================================
+//    13. Home collection styles
+//    ========================================================================== */
+// @import 'home_collection/_banners.scss';
+// @import 'home_collection/_features.scss';
+// @import 'home_collection/_footer.scss';
+// @import 'home_collection/_header.scss';
+// @import 'home_collection/_our_journal.scss';
+// @import 'home_collection/_our_products.scss';
+// @import 'home_collection/_slider.scss';
+// @import 'home_collection/_video.scss';
+
+// /* ==========================================================================
+//    14. Home dark styles
+//    ========================================================================== */
+// @import 'home_dark/_banners.scss';
+// @import 'home_dark/_bestseller_product.scss';
+// @import 'home_dark/_brands.scss';
+// @import 'home_dark/_footer.scss';
+// @import 'home_dark/_header.scss';
+// @import 'home_dark/_intro_text.scss';
+// @import 'home_dark/_our_products.scss';
+// @import 'home_dark/_slider.scss';
+// @import 'home_dark/_testimonials.scss';
+// @import 'home_dark/_video.scss';
+
+// /* ==========================================================================
+//    15. Home classic styles
+//    ========================================================================== */
+// @import 'home_classic/_banners.scss';
+// @import 'home_classic/_brands.scss';
+// @import 'home_classic/_collection_banners.scss';
+// @import 'home_classic/_footer.scss';
+// @import 'home_classic/_header.scss';
+// @import 'home_classic/_intro_text.scss';
+// @import 'home_classic/_limited_edition.scss';
+// @import 'home_classic/_newsletter.scss';
+// @import 'home_classic/_our_journal.scss';
+// @import 'home_classic/_our_products.scss';
+
+// /* ==========================================================================
+//    16. Home best selling styles
+//    ========================================================================== */
+// @import 'home_best_selling/_header.scss';
+// @import 'home_best_selling/_slider.scss';
+
+// /* ==========================================================================
+//    17. Home sidebar styles
+//    ========================================================================== */
+// @import 'home_sidebar/_categories.scss';
+// @import 'home_sidebar/_footer.scss';
+// @import 'home_sidebar/_header.scss';
+// @import 'home_sidebar/_instagram.scss';
+// @import 'home_sidebar/_our_products.scss';
+// @import 'home_sidebar/_product.scss';
+// @import 'home_sidebar/_testimonials.scss';
+
+// /* ==========================================================================
+//    18. Home minimal styles
+//    ========================================================================== */
+// @import 'home_minimal/_about.scss';
+// @import 'home_minimal/_footer.scss';
+// @import 'home_minimal/_header.scss';
+// @import 'home_minimal/_instagram.scss';
+// @import 'home_minimal/_our_journal.scss';
+// @import 'home_minimal/_our_products.scss';
+// @import 'home_minimal/_slider.scss';
+// @import 'home_minimal/_tweet.scss';
+
+// /* ==========================================================================
+//    19. Home shoppable styles
+//    ========================================================================== */
+// @import 'home_shoppable/_banners.scss';
+// @import 'home_shoppable/_features.scss';
+// @import 'home_shoppable/_footer.scss';
+// @import 'home_shoppable/_header.scss';
+// @import 'home_shoppable/_main_banner.scss';
+// @import 'home_shoppable/_new_in.scss';
+// @import 'home_shoppable/_our_journal.scss';
+// @import 'home_shoppable/_our_products.scss';
+// @import 'home_shoppable/_product.scss';
+// @import 'home_shoppable/_video.scss';
+
+
+@import './Latest/latest.scss';

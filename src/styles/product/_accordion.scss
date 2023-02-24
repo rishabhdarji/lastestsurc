@@ -1,0 +1,132 @@
+/* ==========================================================================
+   #ACCORDION
+   ========================================================================== */
+.accordion {
+   padding: 22px 0px;
+   border-bottom: 1px solid #d8d8d8;
+
+   &.active {
+
+      .accordion__content {
+         display: block;
+      }
+
+      .accordion__title {
+
+         &:after {
+            transform: translateY(-50%) rotate(-90deg);
+            -webkit-transform: translateY(-50%) rotate(-90deg);
+            -moz-transform: translateY(-50%) rotate(-90deg);
+         }
+      }
+   }
+}
+
+.accordion__title {
+   font-size: 13px;
+   color: #000;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   position: relative;
+   padding-right: 30px;
+
+   &:after {
+      content: "";
+      display: inline-block;
+      font: normal normal normal 1em/1 "LineIconsPro Light";
+      speak: none;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: block;
+      font-size: 13px;
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      color: #000;
+      transform: translateY(-50%) rotate(90deg);
+      -webkit-transform: translateY(-50%) rotate(90deg);
+      -moz-transform: translateY(-50%) rotate(90deg);
+      pointer-events: none;
+   }
+}
+
+.accordion__content {
+   display: none;
+   font-size: 16px;
+   line-height: 30px;
+   padding-bottom: 5px;
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      line-height: 22px;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      // font-family: "Jost";
+  font-family: "Raleway";
+      line-height: 1.2;
+      font-size: 30px;
+      padding: 40px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 25px;
+         font-size: 20px;
+      }
+   }
+
+   p {
+      padding: 25px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 15px;
+      }
+   }
+
+   ul {
+      padding: 25px 0px 0px 14px;
+      margin: 0px;
+      list-style: none;
+
+      @media (max-width: 991px) {
+         padding-top: 20px;
+      }
+
+      li {
+         position: relative;
+
+         &:before {
+            content: '-';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -14px;
+         }
+      }
+   }
+
+   .contact-page__form {
+      padding-top: 40px;
+
+      @media (max-width: 991px) {
+         padding-top: 25px;
+      }
+   }
+}
+
+/* Mobile tabs */
+.product__mobile-tabs {
+   display: none;
+
+   @media (max-width: 991px) {
+      display: block;
+      padding-top: 22px;
+   }
+}

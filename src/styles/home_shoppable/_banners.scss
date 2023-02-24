@@ -1,0 +1,142 @@
+/* ==========================================================================
+   19.1 #HOME SHOPPABLE - BANNERS
+   ========================================================================== */
+.shoppable-banners {
+
+   @media (max-width: 1199px) {
+      padding-top: 65px;
+   }
+
+   @media (max-width: 991px) {
+      padding-top: 35px;
+   }
+
+   .row {
+      margin: 0px -10px;
+
+      > div {
+         padding: 0px 10px;
+      }
+   }
+
+   .featured-product {
+      margin-top: 145px;
+      height: 600px;
+
+      @media (max-width: 1199px) {
+         margin-top: 30px;
+         height: 560px;
+      }
+
+      @media (max-width: 991px) {
+         margin-top: 20px;
+         height: 330px;
+      }
+   }
+
+   .featured-product__content {
+      transform: translate(-5px, -5px);
+      -webkit-transform: translate(-5px, -5px);
+      -moz-transform: translate(-5px, -5px);
+
+      @media (max-width: 991px) {
+         transform: none;
+         -webkit-transform: none;
+         -moz-transform: none;
+      }
+   }
+
+   .featured-product__image {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #222;
+
+      img {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+
+   .featured-product__category {
+      color: #fff;
+      font-size: 14px;
+
+      @media (max-width: 991px) {
+         font-size: 12px;
+      }
+   }
+
+   .featured-product__product-name {
+      color: #fff;
+      font-weight: 400;
+      text-transform: none;
+      line-height: 1;
+
+      span {
+         display: inline-block;
+         background: #fff;
+         color: #000;
+         font-weight: bold;
+         padding: 0px 9px 0px 9px;
+         margin-bottom: 13px;
+         margin-top: 15px;
+      }
+   }
+
+   .featured-product__product-description {
+      color: #fff;
+   }
+
+   .featured-product__button {
+      bottom: -10px;
+
+      @media (max-width: 991px) {
+         bottom: 0px;
+      }
+
+      a {
+         font-size: 20px;
+         font-weight: 500;
+         color: #fff;
+         text-transform: uppercase;
+         letter-spacing: 0.5px;
+         display: inline-block;
+         position: relative;
+         padding: 5px 0px;
+
+         @media (max-width: 991px) {
+            font-size: 15px;
+         }
+
+         &:hover {
+
+            &:before {
+               width: 100%;
+            }
+         }
+
+         &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 1px;
+            background: #fff;
+            width: 36px;
+            transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+         }
+      }
+   }
+}

@@ -1,0 +1,132 @@
+/* ==========================================================================
+   12.1 #HOME MODERN BANNERS
+   ========================================================================== */
+.modern-banners {
+   padding: 0px 0px 195px 0px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 90px;
+   }
+}
+
+.modern-banners__d-flex {
+   margin: 0px -5px;
+   position: relative;
+
+   @media (max-width: 991px) {
+      flex-wrap: wrap;
+   }
+}
+
+.modern-banners__banner {
+   margin: 0px 5px;
+   position: relative;
+   overflow: hidden;
+
+   @media (max-width: 991px) {
+      width: 100%;
+      margin-bottom: 5px;
+   }
+
+   &:hover {
+   
+      .modern-banner__image {
+
+         img {
+            transform: scale(1.15);
+            -webkit-transform: scale(1.15);
+            -moz-transform: scale(1.15);
+         }
+      }  
+   }
+}
+
+.modern-banner__image {
+
+   img {
+      display: block;
+      width: 100%;
+      transition: 0.8s all ease-in-out;
+      -webkit-transition: 0.8s all ease-in-out;
+      -moz-transition: 0.8s all ease-in-out;
+
+      @media (max-width: 991px) {
+         height: 415px;
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+}
+
+.modern-banner__text {
+   top: 60px;
+   left: 65px;
+   position: absolute;
+
+   @media (max-width: 1199px) {
+      top: 45px;
+      left: 50px;
+   }
+
+   @media (max-width: 991px) {
+      top: 40px;
+      left: 45px;
+   }
+}
+
+.modern-banner__tag {
+   padding: 0px 0px 20px 0px;
+   margin: 0px;
+   color: #999999;
+   font-size: 14px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+
+   @media (max-width: 991px) {
+      font-size: 11px;
+      padding-bottom: 15px;
+   }
+}
+
+.modern-banner__title {
+   padding: 0px;
+   margin: 0px;
+   line-height: 1.22;
+}
+
+.modern-banner__button {
+   position: absolute;
+   left: 65px;
+   bottom: 60px;
+
+   @media (max-width: 1199px) {
+      left: 50px;
+      bottom: 45px;
+   }
+
+   @media (max-width: 991px) {
+      bottom: 40px;
+      left: 45px;
+   }
+
+   a {
+      display: inline-block;
+      padding: 15px 32px 15px 32px;
+      background: #fff;
+      color: #000;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+
+      @media (max-width: 991px) {
+         padding: 9px 27px 9px 27px;
+      }
+
+      &:hover {
+         background: #000;
+         color: #fff;
+      }
+   }
+}

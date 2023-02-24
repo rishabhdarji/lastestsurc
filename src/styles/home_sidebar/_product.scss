@@ -1,0 +1,24 @@
+/* ==========================================================================
+   17.6 #HOME SIDEBAR PRODUCT
+   ========================================================================== */
+.sidebar-product {
+   padding: 140px 0px 120px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 60px 0px;
+   }
+
+   .product {
+      padding: 0px;
+   }
+
+   .product__mobile-gallery {
+      margin-bottom: 30px;
+      margin-left: -20px;
+      margin-right: -20px;
+   }
+
+   .product__mobile-gallery:before {
+      display: none;
+   }
+}

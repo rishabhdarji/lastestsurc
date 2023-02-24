@@ -1,0 +1,79 @@
+/* ==========================================================================
+   13.6 #HOME COLLECTION PRODUCTS
+   ========================================================================== */
+.collection-our-products {
+
+   .col-6 {
+
+      @media (max-width: 991px) {
+         padding-bottom: 30px;
+
+         .product-grid-item__colors {
+            margin-top: 10px;
+
+            .product-grid-item__color {
+               width: 8px;
+               height: 8px;
+            }
+         }
+
+         .product-grid-item__image-colors {
+            padding-top: 15px;
+
+            li {
+               width: 28px;
+               margin: 5px 5px 0px 0px;
+            }
+         }
+
+         .product-grid-item__sizes {
+            padding-top: 10px;
+         }
+
+         .product-grid-item__size {
+            min-width: 26px;
+            min-height: 26px;
+            font-size: 9px;
+            line-height: 1.667;
+            padding: 5px 5px;
+         }
+
+         .product-grid-item__tag {
+            left: 11px;
+            top: 14px;
+            font-size: 9px;
+            padding: 4px 9px;
+         }
+
+         .product-grid-item__feature {
+            font-size: 10px;
+            padding: 15px 0px 0px 0px;
+         }
+
+         .product-grid-item__name {
+            margin-top: 15px;
+            font-size: 14px;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+
+         .product-grid-item__price {
+            padding-top: 3px;
+         }
+      }
+   }
+}
+
+.collection-our-products__more {
+   text-align: center;
+   padding-top: 30px;
+
+   .eighth-button {
+
+      @media (max-width: 991px) {
+         display: block;
+      }
+   }
+}

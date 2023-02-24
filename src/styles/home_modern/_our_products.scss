@@ -1,0 +1,73 @@
+/* ==========================================================================
+   12.7 #HOME MODERN - OUR PRODUCTS
+   ========================================================================== */
+.modern-our-products {
+
+   .container {
+
+      .container {
+         
+         @media (max-width: 991px) {
+            padding: 0px;
+         }
+      }
+   }
+
+   .our-products__title {
+      text-align: center;
+      padding: 0px 0px 55px 0px;
+
+      @media (max-width: 991px) {
+         padding-bottom: 35px;
+      }
+   }
+
+   .our-products__nav {
+
+      li {
+         margin: 0px 35px;
+
+         @media (max-width: 991px) {
+            margin: 0px 18px;
+         }
+
+         &:first-child {
+            margin-left: auto;
+         }
+
+         &:last-child {
+            margin-right: auto;
+         }
+
+         a {
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: #999;
+
+            @media (max-width: 991px) {
+               font-size: 13px;
+               letter-spacing: 0.5px;
+            }
+
+            &:hover {
+               color: #000;
+            }
+
+            &.active {
+               font-weight: 400;
+               color: #000;
+            }
+         }
+      }
+   }
+
+   .slick-dots {
+
+      li.slick-active {
+
+         button {
+            background: #5e6879;
+         }
+      }
+   }
+}

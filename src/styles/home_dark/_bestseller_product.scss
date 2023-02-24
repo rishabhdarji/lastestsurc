@@ -1,0 +1,67 @@
+/* ==========================================================================
+   14.2 #HOME DARK - BESTSELLER PRODUCT
+   ========================================================================== */
+.dark-bestseller-product {
+   background: #e9e8e6;
+   padding-top: 140px;
+   overflow: hidden;
+
+   @media (max-width: 991px) {
+      padding-top: 70px;
+   }
+
+   .product__mobile-gallery {
+
+      @media (max-width: 991px) {
+         margin: 0px -21px 35px -21px;
+         position: relative;
+
+         &:before {
+            display: none;
+         }
+      }
+   }
+
+   .product__right {
+      min-width: 1px;
+      width: 400px;
+
+      @media (max-width: 991px) {
+         width: 100%;
+      }
+   }
+
+   .product__socials {
+      border: none;
+      padding-bottom: 50px;
+   }
+
+   .product__buy-now .second-button {
+      background: #da5f39;
+   }
+
+   .product__add-to-cart .eighth-button {
+      border-color: #999;
+      font-weight: 600;
+   }
+
+   .product__sizes select {
+      background: none;
+      border-color: #999;
+   }
+
+   .product-quantity__input {
+      border-color: #999;
+      background: none;
+   }
+}
+
+.dark-bestseller-product__title {
+   text-align: center;
+   padding: 0px 0px 80px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 50px;
+   }
+}

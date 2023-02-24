@@ -1,0 +1,19 @@
+/* ==========================================================================
+   13.5 #HOME COLLECTION - OUR JOURNAL
+   ========================================================================== */
+.collection-our-journal {
+   background: #f8f6f3;
+   padding: 0px;
+
+   .modern-our-journal__title {
+      text-transform: uppercase;
+   }
+}
+
+.collection-our-journal__container {
+   padding-bottom: 120px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 70px;
+   }
+}

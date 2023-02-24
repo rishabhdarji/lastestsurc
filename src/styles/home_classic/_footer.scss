@@ -1,0 +1,23 @@
+/* ==========================================================================
+   15.4 #HOME CLASSIC - FOOTER
+   ========================================================================== */
+.classic-footer {
+   background: #f5f4f2;
+   border: none;
+
+   .footer__logo {
+      color: #685d33;
+   }
+}
+
+
+.home-classic {
+
+   .classic-footer {
+      margin-top: 200px;
+
+      @media (max-width: 991px) {
+         margin-top: 90px;
+      }
+   }
+}

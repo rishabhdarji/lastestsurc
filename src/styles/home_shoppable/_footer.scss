@@ -1,0 +1,21 @@
+/* ==========================================================================
+   19.3 #HOME SHOPPABLE - FOOTER
+   ========================================================================== */
+.shoppable-footer {
+   border: none;
+   background: #f3f3f6;
+
+   .blog-newsletter__title {
+
+      span {
+         color: #f24d1d;
+      }
+   }
+
+   .footer__first-column,
+   .footer__second-column,
+   .footer__third-column,
+   .footer__fourth-column {
+      padding-top: 75px;
+   }
+}

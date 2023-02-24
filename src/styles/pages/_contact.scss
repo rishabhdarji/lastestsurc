@@ -1,0 +1,275 @@
+/* ==========================================================================
+   8.7 #CONTACT PAGE
+   ========================================================================== */
+.contact-page {
+   padding: 0px 0px 90px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 25px 0px;
+   }
+
+   .container {
+
+      .container {
+
+         @media (max-width: 991px) {
+            padding: 0px;
+         }
+      }
+   }
+}
+
+/* Title */
+.contact-page__title {
+   padding: 90px 0px 30px 0px;
+   max-width: 750px;
+   margin: 0px auto;
+   text-align: center;
+   font-size: 48px;
+
+   @media (max-width: 1098px) {
+      font-size: 40px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 60px 0px 25px 0px;
+      font-size: 26px;
+   }
+}
+
+/* Description */
+.contact-page__description {
+   padding: 0px 0px 80px 0px;
+   max-width: 750px;
+   margin: 0px auto;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 50px 0px;
+   }
+}
+
+/* Google map */
+.contact-page__google-map {
+   padding-bottom: 35px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 10px;
+   }
+
+   iframe {
+      display: block;
+      width: 100%;
+
+      @media (max-width: 991px) {
+         height: 400px !important;
+      }
+   }
+}
+
+/* Contact section */
+.contact-page__section {
+   padding: 5px 0px 90px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 55px 0px;
+   }
+
+   .footer__socials {
+      padding-top: 0px;
+   }
+
+   .stores-list {
+
+      @media (max-width: 991px) {
+         margin-top: -10px;
+         position: relative;
+      }
+   }
+}
+
+.contact-section__title {
+   color: #000000;
+   font-size: 36px;
+   line-height: 1.2;
+   // font-family: "Jost";
+  font-family: "Raleway";
+   padding: 75px 0px 0px 0px;
+   margin: 0px;
+
+   @media (max-width: 1098px) {
+      font-size: 30px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 60px 0px 0px 0px;
+      font-size: 24px;
+   }
+}
+
+/* Form */
+.contact-page__form {
+   padding: 75px 0px 0px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding: 40px 0px 0px 0px;
+   }
+}
+
+.form__required-fields {
+   font-size: 14px;
+   padding-bottom: 40px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 30px;
+   }
+
+   span {
+      color: red;
+   }
+}
+
+.form-group {
+   margin: 0px 0px 30px 0px;
+   padding: 0px;
+}
+
+.form-group__input {
+   display: block;
+   width: 100%;
+   border: none;
+   font-size: 14px;
+   border-bottom: 1px solid #d8d8d8;
+   color: #000;
+   padding: 12px 0px;
+   margin: 0px;
+   outline: none;
+
+   &:focus {
+      border-color: #000;
+   }
+}
+
+.form-group__select {
+   position: relative;
+
+   &:after {
+      content: "";
+      display: inline-block;
+      font: normal normal normal 1em/1 "LineIconsPro Light";
+      speak: none;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      color: #000;
+      transform: translateY(-50%) rotate(90deg);
+      -webkit-transform: translateY(-50%) rotate(90deg);
+      -moz-transform: translateY(-50%) rotate(90deg);
+      pointer-events: none;
+   }
+
+   select {
+      display: block;
+      width: 100%;
+      border: none;
+      font-size: 14px;
+      border-bottom: 1px solid #d8d8d8;
+      color: #000;
+      padding: 12px 0px;
+      margin: 0px;
+      outline: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      &:focus {
+         border-color: #000;
+      }
+   }
+}
+
+.form-group__textarea {
+   display: block;
+   width: 100%;
+   border: none;
+   font-size: 14px;
+   border-bottom: 1px solid #d8d8d8;
+   color: #000;
+   padding: 12px 0px;
+   margin: 0px;
+   outline: none;
+
+   &:focus {
+      border-color: #000;
+   }
+}
+
+.form-checkbox {
+   padding: 20px 0px;
+   position: relative;
+
+   input {
+      display: none;
+   }
+
+   input:checked + label {
+
+      &:after {
+         display: block;
+         position: absolute;
+         top: 3px;
+         left: 0;
+         width: 20px;
+         height: 20px;
+         background: #928656;
+         z-index: 2;
+         content: "";
+         font-family: "LineIconsPro Light";
+         font-size: 12px;
+         line-height: 20px;
+         text-align: center;
+         color: #fff;
+      }
+   }
+
+   label {
+      display: block;
+      padding: 0px 0px 0px 40px;
+      margin: 0px;
+      color: #000;
+      cursor: pointer;
+      position: relative;
+      font-size: 16px;
+
+      @media (max-width: 991px) {
+         font-size: 14px;
+         padding-top: 2px;
+      }
+
+      &:before {
+         content: '';
+         display: block;
+         position: absolute;
+         top: 3px;
+         left: 0;
+         width: 20px;
+         height: 20px;
+         border: 1px solid #999999;
+      }
+   }
+}
+
+.form-checkbox + .form-checkbox {
+   padding-top: 0px;
+   margin-top: -10px;
+   position: relative;
+}
+
+.form__action {
+   padding-top: 25px;
+}

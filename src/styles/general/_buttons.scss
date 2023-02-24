@@ -1,0 +1,234 @@
+/* ==========================================================================
+   #BUTTONS
+   ========================================================================== */
+.button {
+   padding: 13px 32px;
+   color: #928656;
+   display: inline-block;
+   border: 2px solid #928656;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+
+   @media (max-width: 1098px) {
+      padding: 10px 27px;
+      font-size: 17px;
+   }
+
+   @media (max-width: 991px) {
+      border-width: 1px;
+      padding: 8px 25px 8px 25px;
+      font-size: 13px;
+   }
+
+   &:hover {
+      color: #fff;
+      background: #928656;
+   }
+}
+
+.second-button {
+   padding: 12px 26px;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #fff;
+   background: #928656;
+   border: none;
+   display: inline-block;
+   outline: none !important;
+
+   &:hover {
+      background: #928656;
+      color: #fff;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 8px 30px;
+   }
+}
+
+.third-button {
+   padding: 15px 40px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #fff;
+   background: #928656;
+   border: none;
+   display: inline-block;
+   outline: none;
+
+   @media (max-width: 1098px) {
+      padding: 12px 35px;
+      font-size: 17px;
+   }
+
+   @media (max-width: 991px) {
+       padding: 9px 20px;
+       font-size: 13px;
+   }
+
+   &:hover {
+      background: #928656;
+      color: #fff;
+   }
+}
+
+.fourth-button {
+   padding: 15px 40px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #928656;
+   background: none;
+   border: 1px solid #928656;
+   display: inline-block;
+   outline: none;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+
+   @media (max-width: 1098px) {
+      padding: 12px 35px;
+      font-size: 17px;
+   }
+
+   @media (max-width: 991px) {
+       padding: 8px 20px;
+       font-size: 13px;
+   }
+
+   &:hover {
+      background: #928656;
+      color: #fff;
+   }
+}
+
+.fifth-button {
+   width: auto;
+   padding: 11px 36px;
+   border: 1px solid #000;
+   color: #000;
+   display: inline-block;
+   transition: all 0.3s ease-in;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+
+   @media (max-width: 1098px) {
+      padding: 10px 31px;
+      font-size: 17px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 7px 30px;
+   }
+
+   &:hover {
+      background: #000;
+      color: #fff;
+   }
+}
+
+.sixth-button {
+   width: auto;
+   padding: 7px 35px;
+   border: 1px solid #000;
+   color: #000;
+   display: inline-block;
+   transition: all 0.3s ease-in;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   font-size: 14px;
+
+   @media (max-width: 991px) {
+      font-size: 12px;
+      padding: 5px 25px;
+   }
+
+   &:hover {
+      background: #000;
+      color: #fff;
+   }
+}
+
+.seventh-button {
+   width: auto;
+   padding: 13px 52px;
+   border: 1px solid #000;
+   color: #000;
+   display: inline-block;
+   transition: all 0.3s ease-in;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   font-size: 14px;
+
+   @media (max-width: 1098px) {
+      padding: 10px 40px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 7px 30px;
+   }
+
+   &:hover {
+      background: #000;
+      color: #fff;
+   }
+}
+
+.eighth-button {
+   width: auto;
+   padding: 12px 36px;
+   border: 1px solid #999;
+   font-size: 16px;
+   color: #000;
+   display: inline-block;
+   transition: all 0.3s ease-in;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 8px 30px;
+   }
+
+   &:hover {
+      background: #000;
+      color: #fff;
+      border-color: #000;
+   }
+}
+
+.paypal-button {
+   padding: 12px 26px;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   color: #fff;
+   background: #fec34a;
+   border: none;
+   display: inline-block;
+   outline: none !important;
+
+   &:hover {
+      background: #fec34a;
+      color: #fff;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 9px 30px;
+   }
+
+   img {
+      max-height: 26px;
+
+      @media (max-width: 991px) {
+         max-height: 18px;
+      }
+   }
+}

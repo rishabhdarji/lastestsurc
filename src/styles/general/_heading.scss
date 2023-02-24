@@ -1,0 +1,720 @@
+/* ==========================================================================
+   #HEADING
+   ========================================================================== */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-size: 30px;
+  line-height: 1.11;
+  font-weight: 400;
+  // font-family: "Marcellus";
+  //font-family: "Raleway";
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+
+  @media (max-width: 991px) {
+    letter-spacing: 1px;
+  }
+}
+
+h1 {
+  font-size: 30px;
+
+  @media (max-width: 1098px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+}
+
+h2 {
+  font-size: 90px;
+
+  @media (max-width: 1098px) {
+    font-size: 60px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  font-size: 60px;
+  letter-spacing: 1px;
+
+  @media (max-width: 1098px) {
+    font-size: 48px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-size: 48px;
+  letter-spacing: 1px;
+
+  @media (max-width: 1098px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1px;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+}
+
+h6 {
+  font-size: 24px;
+  // font-family: "Jost";
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  @media (max-width: 1098px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+}
+.header{
+  position: absolute;
+    width: 100%;
+    left: 0;
+    background: transparent;
+}
+// .headerWrap {
+//   padding: 30px 0;
+// }
+.headerMenu, .headerMenuInner {
+  position: relative;
+}
+.font-family-jost {
+  // font-family: "Jost";
+  font-family: "Raleway";
+  font-weight: 300;
+  line-height: 1.333;
+  letter-spacing: 0px;
+
+  a {
+    letter-spacing: 0px !important;
+  }
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.text-transform-none {
+  text-transform: none !important;
+}
+.headerContent {
+  position: relative;
+}
+.rowFlexMargin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.flexAlignCenter {
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.rowFlex {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flexAlignCenter {
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+
+.btnMenuMobile {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  color: #999;
+  background-color: transparent;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+.btnMenuMobile .iconMenu {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  display: block;
+  margin: 2px 0;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.velaSearchIcon {
+  font-size: 20px;
+  line-height: 18px;
+  position: relative;
+  color: #f5ba9f;
+}
+.velaLogo {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  vertical-align: middle;
+}
+.velaLogoLink {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.velaLogoLink span {
+  position: absolute;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.velaLogoLink>div {
+  width: 100%;
+}
+
+.p-relative, .velaSlideshowWrapper {
+  position: relative;
+}
+.product-card__image {
+  position: relative;
+  overflow: hidden;
+}
+.product-card__image .product-card__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.velaLogo img {
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+.no-js .placeholder-background--animation {
+  display: none;
+}
+
+.placeholder-background--animation {
+  background-color: #f5f5f5;
+  -webkit-animation: placeholder-background-loading 1.5s infinite linear;
+  -o-animation: placeholder-background-loading 1.5s infinite linear;
+  animation: placeholder-background-loading 1.5s infinite linear;
+}
+.velaMegamenu .menuContainer {
+  position: static;
+  display: flex;
+  justify-content: center;
+}
+
+.velaMegamenu .nav {
+  margin: 0;
+  padding: 0;
+}
+.velaMegamenu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.velaMegamenu .nav>li {
+  padding: 0;
+  display: inline-block;
+}
+.nav>li {
+  position: relative;
+  display: block;
+}
+.velaMegamenu .nav>li.hasMenuDropdown.hasMegaMenu {
+  position: static;
+}
+
+.velaMegamenu .nav>li>a {
+  font-weight: 700!important;
+}
+.velaMegamenu .nav>li>a {
+  padding: 15px 20px;
+  color: #ffbd9f;
+  background-color: transparent;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 25px;
+  position: relative;
+  font-weight: 500;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+.velaHeaderMain.headerMenu.velaHeaderFixed .nav>li>a {
+  color: #000!important;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.velaMegamenu .menuDropdown.megaMenu {
+  padding: 20px 50px;
+}
+.velaMegamenu .menuDropdown.megaMenu {
+  right: 0;
+  width: 100%;
+  padding: 20px 30px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.velaMegamenu .menuDropdown {
+  display: block;
+  position: absolute;
+  top: 150%;
+  left: 0px;
+  font-size: 13px;
+  margin: 0;
+  padding: 15px 25px;
+  min-width: 220px;
+  z-index: 900;
+  visibility: hidden;
+  text-align: left;
+  font-style: inherit;
+  background-color: #fff2ec;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .3s cubic-bezier(.18,.89,.32,1.28);
+  -o-transition: all .3s cubic-bezier(.18,.89,.32,1.28);
+  transition: all .3s cubic-bezier(.18,.89,.32,1.28);
+  -webkit-box-shadow: 0px 6px 15px #0000001f;
+  box-shadow: 0 6px 15px #0000001f;
+}
+
+.velaMenuListCollection .velaMenuListContent {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media (min-width: 1410px){
+.hidden-xl {
+    display: none!important;
+}
+}
+
+.velaMegamenu .menuDropdown.megaMenu .velaMenuLinks {
+  margin-bottom: 20px;
+}
+.velaMegamenu ul {
+  list-style: none;
+  padding-left: 0;
+}
+.velaMegamenu .menuDropdown.megaMenu .velaMenuLinks {
+  margin-bottom: 20px;
+}
+.velaMegamenu ul {
+  list-style: none;
+  padding-left: 0;
+}
+.velaMegamenu .menuDropdown .menuTitle {
+  font-family: Raleway;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #222;
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+  font-style: normal;
+  border: 0!important;
+}
+.velaMegamenu .menuDropdown .menuTitle>span, .velaMegamenu .menuDropdown .menuTitle a {
+  font-size: 15px;
+  padding: 5px 0;
+  background-color: transparent;
+  color: #222;
+  display: block;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+}
+.velaMegamenu .menuDropdown li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 0;
+  color: #666;
+  background-color: transparent;
+  margin-left: 0;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+.velaMenuListCollection .coll-item .collImage {
+  margin-bottom: 0;
+}
+.collImage {
+  margin-bottom: 50px;
+}
+.velaMenuListCollection .coll-item {
+  padding: 10px 15px;
+}
+
+.velaHeaderRight {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.velaCartTop {
+  margin-left: 30px;
+  padding: 15px 0;
+  position: relative;
+}
+.velaCartTop>a {
+  position: relative;
+  color: #f5ba9f;
+  line-height: 14px;
+  font-size: 20px;
+  padding-right: 15px;
+}
+.velaCartTop>a .text {
+  position: absolute;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  top: -5px;
+  right: 0;
+}
+#CartCount {
+  background-color: #e09878;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  height: 18px;
+  right: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: -4px;
+  width: 18px;
+}
+.velaAjaxCartModal {
+  position: absolute;
+  top: 100%;
+  right: 15px;
+  z-index: 20;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-box-shadow: 0px 6px 15px #00000033;
+  box-shadow: 0 6px 15px #0003;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+}
+.headerCartEmpty {
+  padding: 6px;
+  font-size: 13px;
+  font-weight: 300;
+}
+#velaSearchTop {
+  right: 15px;
+  position: absolute;
+  top: 0%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: #fff;
+  width: 400px;
+  padding: 0 40px 0 20px;
+  border-radius: 3px;
+  visibility: hidden;
+  -webkit-box-shadow: 0 0 5px #cccccc;
+  box-shadow: 0 0 5px #ccc;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+#velaSearchTop .velaSearch {
+  border: 0px;
+  color: #222;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 14px;
+}
+input[type=search] {
+  -webkit-appearance: none;
+}
+input[type=search] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 9px 20px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #666;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #a4d5dc;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#velaSearchTop .btnVelaSearch {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: #222;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+}
+#velaSearchTop .btnVelaSearch .btnSearchText {
+  display: none;
+}
+.velaAjaxSearch {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #fff;
+  border: 1px solid #a4d5dc;
+  list-style: none;
+  -webkit-box-shadow: 0 6px 12px #0000002e;
+  box-shadow: 0 6px 12px #0000002d;
+}
+.menuMobileContainer {
+  display: block;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .4s cubic-bezier(.46,.01,.32,1);
+  -o-transition: all .4s cubic-bezier(.46,.01,.32,1);
+  transition: all .4s cubic-bezier(.46,.01,.32,1);
+}
+@media (min-width: 1220px){
+.hidden-lg {
+  display: none!important;
+}
+}
+.menuMobileContainer .menuMobileWrapper {
+  display: block;
+  min-height: 100%;
+  padding: 15px 20px;
+  color: #222;
+  background-color: #fff;
+  font-family: Raleway;
+}
+.menuMobileContainer .memoHeader {
+  position: relative;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menuMobileContainer .btnMenuClose {
+  position: absolute;
+  top: 8px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.menuMobileContainer .memoNav {
+  margin: 15px 0;
+}
+.menuMobileContainer ul {
+  list-style: none;
+  padding: 0;
+}
+.menuMobileContainer .memoNav li {
+  position: relative;
+}
+.menuMobileContainer .memoNav li a {
+  display: block;
+  color: #222;
+  background-color: transparent;
+  padding: 8px 0;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+
+.memoBtnDropdown {
+  position: absolute;
+  top: 6px;
+  right: -10px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.menuMobileContainer ul {
+  list-style: none;
+  padding: 0;
+}
+.collapse {
+  display: none;
+}
+.menuMobileContainer .memoNav .memoDropdown>li {
+  padding-left: 15px;
+}
+.menuMobileContainer .memoNav li {
+  position: relative;
+}
+.menuMobileContainer .memoNav .memoDropdown>li a {
+  font-weight: 300;
+}
+.menuMobileOverlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #000c;
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .4s cubic-bezier(.46,.01,.32,1);
+  -o-transition: all .4s cubic-bezier(.46,.01,.32,1);
+  transition: all .4s cubic-bezier(.46,.01,.32,1);
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+
+@media (min-width: 1220px){
+.container {
+    max-width: 1220px;
+}
+}
+@media (min-width: 992px){
+.container {
+    max-width: 990px;
+}
+}
+@media (min-width: 768px){
+.container {
+    max-width: 760px;
+}
+}   padding-right: 15px;
+}
+@media (min-width: 1220px){
+.hidden-lg {
+    display: none!important;
+}
+}
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 25%;
+}
+}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+}
+@media (max-width: 768px){
+.velaHeader .headerWrap {
+    padding: 10px 0;
+}}
+.velaHeader .headerWrap {
+    padding: 30px 0;
+}
+

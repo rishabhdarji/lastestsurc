@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #SIZE GUIDE
+   ========================================================================== */
+.side-guide__content {
+   padding: 40px;
+
+   @media (max-width: 991px) {
+      padding: 25px;
+   }
+
+   table {
+      margin: 0px;
+      padding: 0px;
+   }
+}
+
+.popup__close {
+   position: absolute;
+   top: -40px;
+   right: 0;
+
+   a {
+      color: #fff;
+   }
+}

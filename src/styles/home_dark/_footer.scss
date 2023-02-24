@@ -1,0 +1,239 @@
+/* ==========================================================================
+   14.4 #HOME DARK - FOOTER
+   ========================================================================== */
+.dark-footer {
+   padding: 175px 0px 125px 0px;
+
+   @media (max-width: 991px) {
+      padding: 70px 0px 60px 0px;
+   }
+}
+
+.dark-footer--type-2 {
+   padding-top: 0px;
+}
+
+.dark-footer__top {
+   border-top: 1px solid #dbdbdb;
+   border-bottom: 1px solid #dbdbdb;
+
+   @media (max-width: 991px) {
+      border: none;
+   }
+
+   .row {
+
+      @media (max-width: 991px) {
+         margin: 0px -20px;
+      }
+
+      > div {
+         border-left: 1px solid #dbdbdb;
+
+         @media (max-width: 991px) {
+            padding: 0px 20px;
+            border: none;
+            border-bottom: 1px solid #dbdbdb !important;
+
+            &:first-child {
+               border-top: 1px solid #dbdbdb !important;
+            }
+         }
+
+         &:first-child {
+            border: none;
+         }
+      }
+   }
+}
+
+.dark-footer__about {
+   padding: 80px 80px;
+   text-align: center;
+
+   @media (max-width: 1199px) {
+      padding: 80px 50px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 50px 20px;
+   }
+}
+
+.dark-footer__title {
+   font-size: 18px;
+   padding: 0px 0px 25px 0px;
+   margin: 0px;
+   text-transform: uppercase;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      font-size: 16px;
+   }
+}
+
+.dark-footer__description {
+   font-size: 16px;
+   line-height: 26px;
+   color: #999999;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      line-height: 24px;
+   }
+}
+
+.dark-footer__social {
+   padding: 80px;
+   text-align: center;
+
+   @media (max-width: 1199px) {
+      padding: 80px 50px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 50px 20px;
+   }
+}
+
+.dark-footer__social-item {
+   display: inline-block;
+   vertical-align: top;
+   font-size: 24px;
+   color: #999999;
+   margin: 6px 12px 0px 12px;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+
+   @media (max-width: 991px) {
+      font-size: 18px;
+   }
+}
+
+.dark-footer__newsletter {
+   padding: 80px;
+   text-align: center;
+
+   @media (max-width: 1199px) {
+      padding: 80px 50px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 50px 20px;
+   }
+}
+
+.dark-footer__newsletter-form {
+   position: relative;
+}
+
+.dark-footer__newsleter-input {
+   display: block;
+   width: 100%;
+   border: 1px solid #dbdbdb;
+   color: #000;
+   font-size: 16px;
+   padding: 11px 130px 11px 20px;
+   outline: none;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+   }
+
+   &::-webkit-input-placeholder {
+      color: #cccccc;
+   }
+
+   &::-moz-placeholder {
+      color: #cccccc;
+   }
+
+   &:-ms-input-placeholder {
+      color: #cccccc;
+   }
+
+   &:-moz-placeholder {
+      color: #cccccc;
+   }
+}
+
+.dark-footer__newsletter-button {
+   right: 10px;
+   top: 13px;
+   color: #000;
+   border: none;
+   font-size: 14px;
+   font-weight: 600;
+   position: absolute;
+   text-transform: uppercase;
+   background-color: transparent;
+   letter-spacing: 0.5px;
+   display: block;
+   outline: none !important;
+   box-shadow: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+
+   @media (max-width: 991px) {
+      font-size: 12px;
+      top: 10px;
+   }
+}
+
+.dark-footer__menu {
+   list-style: none;
+   padding: 50px 0px 0px 0px;
+   margin: 0px;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      padding-top: 40px;
+      overflow-x: scroll;
+      white-space: nowrap;
+   }
+
+   li {
+      margin: 0px 26px;
+      display: inline-block;
+
+      @media (max-width: 991px) {
+         margin: 0px 18px;
+      }
+
+      a {
+         color: #666;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         text-transform: uppercase;
+         font-size: 16px;
+
+         @media (max-width: 991px) {
+            font-size: 12px;
+         }
+
+         &:hover {
+            color: #000;
+         }
+      }
+   }
+}
+
+.dark-footer__copyright {
+   text-align: center;
+   padding: 45px 0px 0px 0px;
+   font-size: 16px;
+   color: #999;
+   letter-spacing: 0.5px;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      padding-top: 30px;
+   }
+
+   span {
+      color: #000;
+   }
+}

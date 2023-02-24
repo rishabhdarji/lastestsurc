@@ -1,0 +1,141 @@
+/* ==========================================================================
+   8.9 #LOGIN PAGE
+   ========================================================================== */
+.login {
+   padding: 0px 0px 175px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 85px 0px;
+   }
+
+   .form-group {
+      margin: 0px 0px 20px 0px;
+   }
+
+   .container {
+
+      .container {
+
+         @media (max-width: 991px) {
+            padding: 0px;
+         }
+      }
+   }
+}
+
+.login__container {
+   padding: 0px 42px;
+
+   @media (max-width: 1098px) {
+      padding: 0px;
+   }
+}
+
+/* Login d-flex */
+.login__d-flex {
+
+   @media (max-width: 767px) {
+      flex-wrap: wrap;
+   }
+}
+
+/* Login left */
+.login__left {
+   width: 425px;
+   max-width: 45%;
+   padding: 125px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding-top: 75px;
+   }
+
+   @media (max-width: 767px) {
+      width: 100%;
+      max-width: 100%;
+      padding-top: 60px;
+   }
+}
+
+.login__box {
+   display: none;
+
+   &.active {
+      display: block;
+   }
+}
+
+.login__h4 {
+   font-size: 24px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   // font-family: "Jost";
+  font-family: "Raleway";
+   padding: 0px 0px 20px 0px;
+   margin: 0px;
+
+   @media (max-width: 1098px) {
+      font-size: 21px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 18px;
+   }
+}
+
+.login__description {
+   padding: 0px 0px 20px 0px;
+   margin: 0px;
+   font-size: 16px;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+   }
+}
+
+.login__forgot-password {
+   text-align: right;
+   padding: 0px 0px 20px 0px;
+
+   a {
+      font-size: 14px;
+   }
+}
+
+.login__action {
+   padding-top: 30px;
+
+   @media (max-width: 767px) {
+      padding-top: 20px;
+   }
+
+   .second-button {
+
+   }
+}
+
+.login__back {
+   padding-top: 20px;
+   text-align: center;
+
+   a {
+      font-size: 14px;
+   }
+}
+
+/* Login right */
+.login__right {
+   width: 425px;
+   max-width: 45%;
+   padding: 125px 0px 0px 0px;
+   margin-left: auto;
+
+   @media (max-width: 991px) {
+      padding-top: 75px;
+   }
+
+   @media (max-width: 767px) {
+      width: 100%;
+      max-width: 100%;
+      padding-top: 70px;
+   }
+}

@@ -1,0 +1,29 @@
+/* ==========================================================================
+   17.4 #HOME SIDEBAR - INSTAGRAM
+   ========================================================================== */
+.sidebar-instagram {
+   background: #e9ecf2;
+   padding: 0px 0px 185px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 70px 0px;
+   }
+
+   .instagram__title {
+      padding-top: 0px;
+      text-transform: none;
+      font-size: 36px;
+
+      @media (max-width: 991px) {
+         font-size: 24px;
+      }
+   }
+
+   .instagram_feed {
+      padding-top: 57px;
+
+      @media (max-width: 991px) {
+         padding-top: 40px;
+      }
+   }
+}

@@ -1,0 +1,155 @@
+/* ==========================================================================
+   15.1 #HOME CLASSIC - BANNERS
+   ========================================================================== */
+.classic-banners {
+
+   .row {
+      margin: 0px -10px;
+
+      > div {
+         padding: 0px 10px;
+      }
+   }
+}
+
+.classic-banners__banner {
+   margin-top: 65px;
+   position: relative;
+   overflow: hidden;
+
+   @media (max-width: 991px) {
+      margin-top: 20px;
+   }
+
+   &:hover {
+
+      .classic-banner__image {
+
+         img {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+         }
+      }
+   }
+}
+
+.classic-banner__image {
+
+   img {
+      display: block;
+      width: 100%;
+      height: 750px;
+      object-fit: cover;
+      transition: 1s all ease-in-out;
+      -webkit-transition: 1s all ease-in-out;
+      -moz-transition: 1s all ease-in-out;
+
+      @media (max-width: 1199px) {
+         height: 600px;
+      }
+
+      @media (max-width: 991px) {
+         height: 440px;
+      }
+   }
+}
+
+.classic-banner__content {
+   position: absolute;
+   top: 55px;
+   left: 60px;
+   right: 60px;
+   max-width: 300px;
+
+   @media (max-width: 991px) {
+      top: 30px;
+      left: 30px;
+      right: 30px;
+      max-width: 200px;
+   }
+}
+
+.classic-banner__tag {
+   padding: 0px 0px 20px 0px;
+   color: #000;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+
+   @media (max-width: 991px) {
+      font-size: 12px;
+   }
+}
+
+.classic-banner__title {
+   color: #685d33;
+   padding: 0px;
+   margin: 0px;
+}
+
+.classic-banner__action {
+   position: absolute;
+   left: 60px;
+   bottom: 65px;
+
+   @media (max-width: 991px) {
+      left: 30px;
+      bottom: 40px;
+   }
+
+   a {
+      display: inline-block;
+      color: #000;
+      position: relative;
+      padding-bottom: 10px;
+      font-size: 20px;
+
+      @media (max-width: 991px) {
+         font-size: 17px;
+      }
+
+      &:hover {
+
+         &:before {
+            width: 100%;
+         }
+      }
+
+      &:before {
+         content: '';
+         display: block;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         width: 50%;
+         height: 2px;
+         background: #000;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+}
+
+.classic-banners__banner--white {
+
+   .classic-banner__tag {
+      color: #fff;
+   }
+
+   .classic-banner__title {
+      color: #fff;
+   }
+
+   .classic-banner__action {
+
+      a {
+         color: #fff;
+
+         &:before {
+            background: #fff;
+         }
+      }
+   }
+}

@@ -1,0 +1,119 @@
+/* ==========================================================================
+   13.1 #HOME COLLECTION - BANNERS
+   ========================================================================== */
+.collection-banners {
+
+   @media (max-width: 991px) {
+      flex-wrap: wrap;
+   }
+}
+
+.collection-banners__banner {
+   width: 50%;
+   min-width: 50%;
+   position: relative;
+
+   @media (max-width: 991px) {
+      width: 100%;
+      min-width: 100%;
+   }
+}
+
+.collection-banner__image {
+
+   img {
+      height: 50vw;
+      width: 100%;
+      min-height: 960px;
+      object-fit: cover;
+
+      @media (max-width: 1098px) {
+         min-height: 800px;
+      }
+
+      @media (max-width: 991px) {
+         min-height: 720px;
+      }
+   }
+}
+
+.collection-banner__content {
+   top: 50%;
+   left: 50px;
+   right: 50px;
+   color: #fff;
+   margin: 0 auto;
+   z-index: 5;
+   max-width: 840px;
+   position: absolute;
+   transform: translateY(-50%);
+   padding-top: 50px;
+   max-width: 530px;
+   text-align: center;
+}
+
+.collection-banner__title {
+   font-size: 100px;
+   line-height: 1;
+   padding: 0px 0px 45px 0px;
+   margin: 0px;
+   text-transform: uppercase;
+   color: #fff;
+
+   @media (max-width: 1098px) {
+      font-size: 72px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 48px;
+      padding: 0px 0px 35px 0px;
+   }
+}
+
+.collection-banner__description {
+   font-size: 24px;
+   line-height: 1.5;
+   margin: 0px;
+   padding: 0px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      font-size: 16px;
+   }
+}
+
+.collection-banner__buttons {
+   padding: 120px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding: 60px 0px 0px 0px;
+   }
+
+   a {
+      display: inline-block;
+      margin: 0px 5px;
+      padding: 14px 35px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #fff;
+      color: #000;
+      letter-spacing: 0.75px;
+      transition: 0.3s all ease-in-out;
+      -webkit-transition: 0.3s all ease-in-out;
+      -moz-transition: 0.3s all ease-in-out;
+      text-transform: uppercase;
+
+      @media (max-width: 991px) {
+         padding: 9px 27px;
+      }
+
+      &.without-background {
+         background: none;
+         color: #fff;
+
+         &:hover {
+            background: #fff;
+            color: #000;
+         }
+      }
+   }
+}

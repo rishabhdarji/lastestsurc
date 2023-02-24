@@ -1,0 +1,35 @@
+/* ==========================================================================
+   19.9 #HOME SHOPPABLE - PRODUCT
+   ========================================================================== */
+.shoppable-product {
+   padding: 140px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding: 20px 0px 0px 0px;
+   }
+
+   .product {
+      padding: 0px;
+   }
+
+   .product__right {
+      border: 1px solid #dcdcdc;
+      margin-bottom: auto;
+      padding: 60px;
+
+      @media (max-width: 1298px) {
+         border: none;
+         padding: 0px;
+      }
+   }
+
+   .product__mobile-gallery {
+      margin-bottom: 30px;
+      margin-left: -20px;
+      margin-right: -20px;
+   }
+
+   .product__mobile-gallery:before {
+      display: none;
+   }
+}

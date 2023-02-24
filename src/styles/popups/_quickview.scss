@@ -1,0 +1,234 @@
+/* ==========================================================================
+   10.2 #QUICKVIEW
+   ========================================================================== */
+.quickview-popup {
+   background: rgba(0, 0, 0, 0.4);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 999;
+   padding: 60px 30px;
+   overflow-y: scroll;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   display: flex;
+
+   &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+   }
+
+   .slick-prev {
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+      z-index: 3;
+      display: block !important;
+
+      @media (max-width: 991px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc1";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 48px;
+         color: rgba(0, 0, 0, 0.25);
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+
+   .slick-next {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+      z-index: 3;
+      display: block !important;
+
+      @media (max-width: 991px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc3";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 48px;
+         color: rgba(0, 0, 0, 0.25);
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+
+   .slick-dots {
+      text-align: center;
+      margin: 0px 0px 0px 0px;
+      padding: 0px;
+      list-style: none;
+      bottom: 40px;
+      left: 20px;
+      right: 20px;
+      top: auto;
+      position: absolute;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      width: auto;
+
+      @media (max-width: 991px) {
+         bottom: 20px;
+      }
+
+      li {
+         display: inline-block;
+         vertical-align: top;
+         margin: 0px 10px;
+
+         &.slick-active {
+
+            button {
+               width: 38px;
+               border-radius: 40px;
+               background-color: #928656;
+            }
+         }
+
+         button {
+            border: none;
+            padding: 0px;
+            margin: 0px;
+            font-size: 0px;
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            display: block;
+            background: rgba(0, 0, 0, 0.9);
+            transition: 0.3s all ease-in-out;
+            outline: none;
+         }
+      }
+   }
+}
+
+.quickview-popup__content {
+   width: 1140px;
+   max-width: 100%;
+   background: #fff;
+   margin: auto;
+   display: flex;
+   position: relative;
+
+   @media (max-width: 991px) {
+      flex-wrap: wrap;
+   }
+
+   .product__mobile-gallery {
+      display: block !important;
+      width: 52.63% !important;
+      min-width: 52.63% !important;
+      margin: 0px !important;
+
+      @media (max-width: 991px) {
+         width: 100% !important;
+         width: 100% !important;
+      }
+   }
+
+   .product__mobile-gallery:before {
+      display: none !important;
+   }
+
+   .product__add-to-cart .eighth-button {
+      background: #928656;
+      border-color: #928656;
+      color: #fff;
+
+      &.is-loading {
+         color: rgba(255, 255, 255, 0);
+      }
+   }
+
+   .loading-spin {
+      margin: 0px auto;
+      padding: 150px 0px;
+      min-width: 100%;
+   }
+}
+
+.quickview-popup__right {
+   width: 47.37%;
+   min-width: 47.37%;
+   padding: 55px 70px 55px 70px;
+
+   @media (max-width: 1098px) {
+      padding: 40px;
+   }
+
+   @media (max-width: 991px) {
+      width: 100%;
+      min-width: 100%;
+      padding: 40px 30px;
+   }
+}
+
+#quickview-product {
+   width: 100%;
+}
+
+#product-quickview-content {
+
+   @media (max-width: 991px) {
+      flex-wrap: wrap;
+   }
+}

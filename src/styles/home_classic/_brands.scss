@@ -1,0 +1,15 @@
+/* ==========================================================================
+   15.2 #HOME CLASSIC - BRANDS
+   ========================================================================== */
+.classic-brands {
+
+   .home-brands__items {
+      padding: 80px 0px 80px 0px;
+      margin: 0px;
+      border: none;
+
+      @media (max-width: 991px) {
+         padding: 35px 0px 55px 0px;
+      }
+   }
+}

@@ -1,0 +1,758 @@
+
+.pbBlockGutter {
+    padding-bottom: 30px;
+}
+@media (min-width: 992px){
+.headingGroup {
+    margin-bottom: 20px;
+}
+}
+@media (min-width: 768px){
+    .headingGroup .velaHomeTitle {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+.headingGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pb20 {
+    padding-bottom: 20px!important;
+}
+@media (min-width: 768px){
+.headingGroup .velaHomeTitle span:before {
+    right: 100%;
+}}
+.headingGroup .velaHomeTitle {
+    font-weight: 700;
+    font-size: 24px;
+    color: #222;
+    text-transform: uppercase;
+}
+.velaHomeTitle {
+    padding: 0 0 10px;
+    margin: 0;
+    position: relative;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #222;
+    font-family: Raleway;
+}
+.text-center {
+    text-align: center;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #222;
+}
+@media (min-width: 768px){
+.headingGroup .velaHomeTitle span {
+    padding: 0 70px;
+}
+}
+.headingGroup .velaHomeTitle span {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel {
+    position: relative;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+}
+.owl-carousel .owl-nav>div.disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.proOwlCarousel .owl-nav > div {
+    margin-top: -50px;
+  }
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.proOwlCarousel .owl-nav>div {
+    margin-top: -50px;
+}
+.owl-nav .owl-prev {
+    left: -15px;
+}
+@media (min-width: 768px){
+.owl-nav>div {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+}
+.owl-nav>div {
+    position: absolute;
+    top: 50%;
+    margin: -25px auto 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    line-height: 48px;
+    background: #e09878;
+    border-radius: 50%;
+    border: 1px solid #e09878;
+    color: #fff;
+    font-size: 0;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.owl-dots {
+    text-align: center;
+}
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+.velaProBlock .proHImage {
+    position: relative;
+    overflow: hidden;
+}
+.flexJustifyCenter {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+.d-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.velaProBlock .proFeaturedImage {
+    display: block;
+    width: 100%;
+}
+.proFeaturedImage {
+    position: relative;
+    padding: 0;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.p-relative, .velaSlideshowWrapper {
+    position: relative;
+}
+.product-card__image {
+    position: relative;
+    overflow: hidden;
+}
+.velaProBlock .proFeaturedImage img {
+    width: 100%;
+}
+.product-card__image .product-card__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.no-js .placeholder-background--animation {
+    display: none;
+}
+.placeholder-background--animation {
+    background-color: #f5f5f5;
+    -webkit-animation: placeholder-background-loading 1.5s infinite linear;
+    -o-animation: placeholder-background-loading 1.5s infinite linear;
+    animation: placeholder-background-loading 1.5s infinite linear;
+}
+.velaProBlock .proFeaturedImage .proImageSecond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.p-relative, .velaSlideshowWrapper {
+    position: relative;
+}
+.productLable {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+}
+.velaProBlock.grid .proButton {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 10;
+    display: flex;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.velaProBlock.grid .proContent {
+    margin-top: 20px;
+}
+.velaProBlock .proContent {
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+.velaProBlock .proName a {
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    color: #222;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    font-weight: 500;
+}
+
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.proPrice .priceProduct {
+    display: inline-block;
+}
+.priceProduct {
+    font-size: 15px;
+    color: #222;
+    line-height: 18px;
+    font-family: Raleway;
+}
+.velaSwatchProduct {
+    z-index: 10;
+    display: block;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.flexJustifyCenter {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+.d-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.velaSwatchProduct>li {
+    display: inline-block;
+    padding: 2px;
+}
+.velaSwatchProduct>li>label {
+    display: block;
+    margin: 0;
+    width: 20px;
+    height: 25px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    box-shadow: 0 0 2px #ccc;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.velaProBlock .proFeaturedImage .proImageSecond {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: #fff;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+a:active:focus, button:active:focus, .btn:active:focus {
+    outline: none;
+}
+
+.velaProBlock .proFeaturedImage {
+    display: block;
+    width: 100%;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+
+.velaProBlock:hover .proFeaturedImage .proImageSecond {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.velaProBlock.grid .btnProduct {
+    line-height: 38px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+.btnProduct {
+    color: #fff;
+    background-color: #222;
+    border: 1px solid #222222;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 15px;
+    line-height: 20px;
+    height: auto;
+}
+.btnAddToCart, .proBoxInfo .shopify-payment-button__button {
+    color: #fff;
+    background-color: #a4d5dc;
+    border-color: #aee1e9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    padding: 10px 30px;
+    border-radius: 0!important;
+    font-family: Raleway;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    font-family: Raleway;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 9px 20px;
+    font-size: 14px;
+    line-height: 1.45;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btnProduct:hover, .btnProduct:focus {
+    background-color: #e09878;
+    border-color: #e09878;
+    color: #fff;
+}
+
+.btnAddToCart:hover, .proBoxInfo .shopify-payment-button__button:hover {
+    color: #fff;
+    background-color: #e09878;
+    border-color: #e09878;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #e09878;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.owl-carousel:hover .owl-nav>div {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+.owl-carousel .owl-nav>div.disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.proOwlCarousel .owl-nav>div {
+    margin-top: -50px;
+}
+.owl-nav .owl-prev {
+    left: -15px;
+}
+@media (min-width: 768px){
+.owl-nav>div {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+.owl-nav .owl-next {
+    right: -15px;
+}
+}
+@media (min-width: 768px){
+.owl-nav>div {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}}
+.owl-nav>div {
+    position: absolute;
+    top: 50%;
+    margin: -25px auto 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    line-height: 48px;
+    background: #e09878;
+    border-radius: 50%;
+    border: 1px solid #e09878;
+    color: #fff;
+    font-size: 0;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.velaProBlock.grid .productQuickView {
+    width: 60px;
+    border-left: 1px solid #414141;
+}
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .velaProBlock.grid {
+    padding-bottom: 30px;
+  }
+  .velaProBlock {
+    position: relative;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .velaProBlock .proHImage {
+    position: relative;
+    overflow: hidden;
+  }
+  .flexJustifyCenter {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+  .d-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .velaProBlock .proFeaturedImage {
+    display: block;
+    width: 100%;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .p-relative, .velaSlideshowWrapper {
+    position: relative;
+  }
+  .btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px #00000020;
+  }
+  .velaProBlock.grid .formAddToCart {
+    width: 100%;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .velaProBlock.grid:hover .proButton {
+    visibility: visible;
+  }
+  :root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+  }
+  .velaProBlock.grid:hover .proButton {
+    bottom: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+    color: #666;
+  }
+  .velaProBlock.grid .proButton {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 10;
+    display: flex;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  .velaProBlock.grid .formAddToCart {
+    width: 100%;
+  }
+  .velaProBlock.grid .productQuickView .icons {
+    position: relative;
+    top: 3px;
+  }
+  .btnProduct .icons {
+    font-size: 18px;
+  }
+  .icon-action-redo, .icon-action-undo, .icon-anchor, .icon-arrow-down, .icon-arrow-down-circle, .icon-arrow-left, .icon-arrow-left-circle, .icon-arrow-right, .icon-arrow-right-circle, .icon-arrow-up, .icon-arrow-up-circle, .icon-badge, .icon-bag, .icon-ban, .icon-basket, .icon-basket-loaded, .icon-bell, .icon-book-open, .icon-briefcase, .icon-bubble, .icon-bubbles, .icon-bulb, .icon-calculator, .icon-calendar, .icon-call-end, .icon-call-in, .icon-call-out, .icon-camera, .icon-camrecorder, .icon-chart, .icon-check, .icon-chemistry, .icon-clock, .icon-close, .icon-cloud-download, .icon-cloud-upload, .icon-compass, .icon-control-end, .icon-control-forward, .icon-control-pause, .icon-control-play, .icon-control-rewind, .icon-control-start, .icon-credit-card, .icon-crop, .icon-cup, .icon-cursor, .icon-cursor-move, .icon-diamond, .icon-direction, .icon-directions, .icon-disc, .icon-dislike, .icon-doc, .icon-docs, .icon-drawer, .icon-drop, .icon-earphones, .icon-earphones-alt, .icon-emotsmile, .icon-energy, .icon-envelope, .icon-envelope-letter, .icon-envelope-open, .icon-equalizer, .icon-event, .icon-exclamation, .icon-eye, .icon-eyeglass, .icon-feed, .icon-film, .icon-fire, .icon-flag, .icon-folder, .icon-folder-alt, .icon-frame, .icon-game-controller, .icon-ghost, .icon-globe, .icon-globe-alt, .icon-graduation, .icon-graph, .icon-grid, .icon-handbag, .icon-heart, .icon-home, .icon-hourglass, .icon-info, .icon-key, .icon-layers, .icon-like, .icon-link, .icon-list, .icon-location-pin, .icon-lock, .icon-lock-open, .icon-login, .icon-logout, .icon-loop, .icon-magic-wand, .icon-magnet, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-map, .icon-menu, .icon-microphone, .icon-minus, .icon-mouse, .icon-music-tone, .icon-music-tone-alt, .icon-mustache, .icon-note, .icon-notebook, .icon-options, .icon-options-vertical, .icon-organization, .icon-paper-clip, .icon-paper-plane, .icon-paypal, .icon-pencil, .icon-people, .icon-phone, .icon-picture, .icon-pie-chart, .icon-pin, .icon-plane, .icon-playlist, .icon-plus, .icon-power, .icon-present, .icon-printer, .icon-puzzle, .icon-question, .icon-refresh, .icon-reload, .icon-rocket, .icon-screen-desktop, .icon-screen-smartphone, .icon-screen-tablet, .icon-settings, .icon-share, .icon-share-alt, .icon-shield, .icon-shuffle, .icon-size-actual, .icon-size-fullscreen, .icon-social-behance, .icon-social-dribbble, .icon-social-dropbox, .icon-social-facebook, .icon-social-foursqare, .icon-social-github, .icon-social-google, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-reddit, .icon-social-skype, .icon-social-soundcloud, .icon-social-spotify, .icon-social-steam, .icon-social-stumbleupon, .icon-social-tumblr, .icon-social-twitter, .icon-social-vkontakte, .icon-social-youtube, .icon-speech, .icon-speedometer, .icon-star, .icon-support, .icon-symbol-female, .icon-symbol-male, .icon-tag, .icon-target, .icon-trash, .icon-trophy, .icon-umbrella, .icon-user, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-vector, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-wallet, .icon-wrench {
+  font-family: simple-line-icons;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.owl-carousel .owl-nav > div.disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    filter: alpha(opacity=50);
+  }
+  
+.owl-nav .owl-next::before {
+
+    content: "\f105";
+    margin-left: 3px;
+
+}
+.owl-nav > div::before {
+
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: FontAwesome;
+
+}
+::before, ::after {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.owl-nav .owl-prev::before {
+    content: "\f104";
+    margin-right: 2px;
+  }
+  .owl-nav > div::before {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: FontAwesome;
+  }
+  ::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .owl-nav .owl-next::before {
+    content: "\f105";
+    margin-left: 3px;
+  }
+  .owl-nav > div::before {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: FontAwesome;
+  }
+  
+  .owl-nav > div:hover {
+    background-color: #222;
+    border-color: #222;
+    color: #fff;
+  }
+  .icon-eye::before {
+    content: "\e087";
+  }
+  ::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .btnProduct .icons {
+    font-size: 18px;
+  }
+  .icon-action-redo, .icon-action-undo, .icon-anchor, .icon-arrow-down, .icon-arrow-down-circle, .icon-arrow-left, .icon-arrow-left-circle, .icon-arrow-right, .icon-arrow-right-circle, .icon-arrow-up, .icon-arrow-up-circle, .icon-badge, .icon-bag, .icon-ban, .icon-basket, .icon-basket-loaded, .icon-bell, .icon-book-open, .icon-briefcase, .icon-bubble, .icon-bubbles, .icon-bulb, .icon-calculator, .icon-calendar, .icon-call-end, .icon-call-in, .icon-call-out, .icon-camera, .icon-camrecorder, .icon-chart, .icon-check, .icon-chemistry, .icon-clock, .icon-close, .icon-cloud-download, .icon-cloud-upload, .icon-compass, .icon-control-end, .icon-control-forward, .icon-control-pause, .icon-control-play, .icon-control-rewind, .icon-control-start, .icon-credit-card, .icon-crop, .icon-cup, .icon-cursor, .icon-cursor-move, .icon-diamond, .icon-direction, .icon-directions, .icon-disc, .icon-dislike, .icon-doc, .icon-docs, .icon-drawer, .icon-drop, .icon-earphones, .icon-earphones-alt, .icon-emotsmile, .icon-energy, .icon-envelope, .icon-envelope-letter, .icon-envelope-open, .icon-equalizer, .icon-event, .icon-exclamation, .icon-eye, .icon-eyeglass, .icon-feed, .icon-film, .icon-fire, .icon-flag, .icon-folder, .icon-folder-alt, .icon-frame, .icon-game-controller, .icon-ghost, .icon-globe, .icon-globe-alt, .icon-graduation, .icon-graph, .icon-grid, .icon-handbag, .icon-heart, .icon-home, .icon-hourglass, .icon-info, .icon-key, .icon-layers, .icon-like, .icon-link, .icon-list, .icon-location-pin, .icon-lock, .icon-lock-open, .icon-login, .icon-logout, .icon-loop, .icon-magic-wand, .icon-magnet, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-map, .icon-menu, .icon-microphone, .icon-minus, .icon-mouse, .icon-music-tone, .icon-music-tone-alt, .icon-mustache, .icon-note, .icon-notebook, .icon-options, .icon-options-vertical, .icon-organization, .icon-paper-clip, .icon-paper-plane, .icon-paypal, .icon-pencil, .icon-people, .icon-phone, .icon-picture, .icon-pie-chart, .icon-pin, .icon-plane, .icon-playlist, .icon-plus, .icon-power, .icon-present, .icon-printer, .icon-puzzle, .icon-question, .icon-refresh, .icon-reload, .icon-rocket, .icon-screen-desktop, .icon-screen-smartphone, .icon-screen-tablet, .icon-settings, .icon-share, .icon-share-alt, .icon-shield, .icon-shuffle, .icon-size-actual, .icon-size-fullscreen, .icon-social-behance, .icon-social-dribbble, .icon-social-dropbox, .icon-social-facebook, .icon-social-foursqare, .icon-social-github, .icon-social-google, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-reddit, .icon-social-skype, .icon-social-soundcloud, .icon-social-spotify, .icon-social-steam, .icon-social-stumbleupon, .icon-social-tumblr, .icon-social-twitter, .icon-social-vkontakte, .icon-social-youtube, .icon-speech, .icon-speedometer, .icon-star, .icon-support, .icon-symbol-female, .icon-symbol-male, .icon-tag, .icon-target, .icon-trash, .icon-trophy, .icon-umbrella, .icon-user, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-vector, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-wallet, .icon-wrench {
+    font-family: simple-line-icons;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  }
+
+  @media (min-width: 768px){
+.headingGroup .velaHomeTitle span:after {
+    left: 100%;
+}
+  }
+
+@media (min-width: 768px){
+.headingGroup .velaHomeTitle span:after, .headingGroup .velaHomeTitle span:before {
+    width: 130px;
+    height: 4px;
+    background: transparent;
+    position: absolute;
+    content: "";
+    top: 13px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+}
+
+@media (min-width: 768px){
+.headingGroup .velaHomeTitle span:after {
+    left: 100%;
+}
+}    

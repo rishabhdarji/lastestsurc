@@ -1,0 +1,158 @@
+/* ==========================================================================
+   10.1 #NEWSLETTER POPUP
+   ========================================================================== */
+.newsletter-popup {
+   background: rgba(0, 0, 0, 0.4);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 999;
+   padding: 60px 30px;
+   overflow-y: scroll;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   display: flex;
+
+   &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+   }
+}
+
+.newsletter-popup__content {
+   width: 570px;
+   height: 700px;
+   max-width: 100%;
+   background: #fff url(bg-newsletter.jpg) center no-repeat;
+   background-size: cover;
+   margin: auto;
+   padding: 76px 70px 50px 70px;
+
+   @media (max-width: 991px) {
+      background: #fff;
+      padding: 40px 30px;
+      height: auto;
+   }
+}
+
+.popup-newsletter__title {
+   text-align: center;
+
+   > span {
+      display: block;
+      font-size: 14px;
+      color: #999999;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+   }
+
+   h4 {
+      text-transform: uppercase;
+      padding: 68px 0px 0px 0px;
+      margin: 0px;
+      color: #685d33;
+
+      @media (max-width: 991px) {
+         padding: 24px 0px 0px 0px;
+      }
+
+      span {
+         color: #f45828;
+      }
+   }
+}
+
+.popup-newsletter__description {
+   padding: 74px 0px 0px 0px;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      padding: 28px 0px 0px 0px;
+   }
+}
+
+.popup-newsletter-form {
+   max-width: 370px;
+   margin: 30px auto 0px auto;
+   position: relative;
+}
+
+.popup-newsleter-input {
+   display: block;
+   width: 100%;
+   border: 1px solid #d0d0d0;
+   color: #000;
+   font-size: 16px;
+   padding: 14px 130px 14px 20px;
+   outline: none;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+   }
+
+   &::-webkit-input-placeholder {
+      color: #666;
+   }
+
+   &::-moz-placeholder {
+      color: #666;
+   }
+
+   &:-ms-input-placeholder {
+      color: #666;
+   }
+
+   &:-moz-placeholder {
+      color: #666;
+   }
+}
+
+.popup-newsletter-button {
+   right: 20px;
+   top: 14px;
+   color: #000;
+   border: none;
+   font-size: 16px;
+   font-weight: 400;
+   position: absolute;
+   text-transform: uppercase;
+   background-color: transparent;
+   letter-spacing: 0.5px;
+   display: block;
+   outline: none !important;
+   box-shadow: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+
+   @media (max-width: 991px) {
+      font-size: 12px;
+      top: 10px;
+      right: 10px;
+   }
+}
+
+.popup-newsletter__policy {
+   padding: 35px 0px 0px 0px;
+   font-size: 16px;
+   color: #999;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      padding: 25px 0px 0px 0px;
+   }
+
+   a {
+      color: #000;
+      text-decoration: underline;
+   }
+}

@@ -1,0 +1,12 @@
+/* ==========================================================================
+   19.2 #HOME SHOPPABLE - FEATURES
+   ========================================================================== */
+.shoppable-features {
+   padding-top: 90px;
+   padding-bottom: 170px;
+
+   @media (max-width: 991px) {
+      padding-top: 50px;
+      padding-bottom: 80px;
+   }
+}

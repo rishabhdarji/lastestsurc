@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #COMPLETE YOUR OUTFIT
+   ========================================================================== */
+.complete-your-outfit {
+   padding: 0px 0px 115px 0px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 90px;
+   }
+
+   hr {
+      margin-bottom: 95px;
+
+      @media (max-width: 991px) {
+         display: none;
+      }
+   }
+}
+
+.complete-your-outfit__title {
+   margin: 0px 0px 50px 0px;
+   font-size: 36px;
+
+   @media (max-width: 1098px) {
+      font-size: 30px;
+   }
+
+   @media (max-width: 991px) {
+      margin: 0px 0px 20px 0px;
+      font-size: 20px;
+   }
+}

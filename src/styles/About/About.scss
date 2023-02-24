@@ -1,0 +1,166 @@
+.mb60 {
+    margin-bottom: 60px!important;
+}
+.aboutBannerTop .container {
+    max-width: 900px;
+}
+.aboutBannerTop .pageContainer {
+    position: relative;
+}
+@media (min-width: 768px){   
+.aboutBannerTop .pageContainer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}}
+.velaBreadcrumbs.hasBackgroundImage .velaBreadcrumbWrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+.velaBreadcrumbWrap {
+    padding-top: 15px;
+    padding-bottom: 15px
+
+}
+.breadcrumbHeading {
+    margin: 0 0 15px;
+    display: none;
+    position: relative;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+.velaHeader .headerWrap {
+    padding: 30px 0;
+}
+
+.breadcrumb>.active {
+    color: #e09878;
+}
+.velaHeaderMain.headerMenu.velaHeaderFixed .nav>li>a {
+    color: #000!important;
+}
+
+.breadcrumb>li+li:before {
+    content: "\f105";
+    padding: 0 5px;
+    color: #666;
+    font-family: FontAwesome;
+    margin-left: 2px;
+}
+
+.velaBreadcrumbs.hasBackgroundImage .breadcrumbHeading {
+    color: #ffe0d2;
+    display: block;
+}
+
+@media (min-width: 480px){    
+.aboutBannerTop .groupHeading {
+    padding-left: 130px;
+}}
+.aboutBannerTop .groupHeading {
+    position: relative;
+}
+.mb20 {
+    margin-bottom: 20px!important;
+}
+.aboutBannerTop .groupHeading .subtitle {
+    font-family: Raleway;
+    color: #e09878;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.aboutBannerTop .groupHeading .aboutTitle {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #222;
+}
+@media (min-width: 480px){   
+.aboutBannerTop .groupHeading .subtitle:before {
+    width: 110px;
+    content: "";
+    height: 2px;
+    background-color: #e09878;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}}
+
+p {
+    margin: 0 0 10px;
+}
+
+h1, .h1 {
+    font-size: 32px;
+}
+
+
+h1 {
+    font-size: 1em;
+    margin: 0.67em 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #fff;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+b, strong {
+    font-weight: 700;
+}
+
+.rte img {
+    max-width: 100%;
+    height: auto;
+}

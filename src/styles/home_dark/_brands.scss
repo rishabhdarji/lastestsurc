@@ -1,0 +1,15 @@
+/* ==========================================================================
+   14.3 #HOME DARK - BRANDS
+   ========================================================================== */
+.dark-brands {
+
+   .home-brands__items {
+      padding: 120px 0px 0px 0px;
+      margin: 0px;
+      border: none;
+
+      @media (max-width: 991px) {
+         padding-top: 30px;
+      }
+   }
+}

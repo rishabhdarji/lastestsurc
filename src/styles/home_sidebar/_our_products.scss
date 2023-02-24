@@ -1,0 +1,67 @@
+/* ==========================================================================
+   17.5 #HOME SIDEBAR OUR PRODUCTS
+   ========================================================================== */
+.sidebar-our-products {
+   padding: 105px 0px 120px 0px;
+   overflow: hidden;
+
+   @media (max-width: 991px) {
+      padding: 60px 0px;
+   }
+
+   .our-products__title {
+      font-size: 36px;
+      padding: 0px 0px 70px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         font-size: 26px;
+         padding-bottom: 40px;
+         text-align: center;
+      }
+   }
+
+   .slick-prev,
+   .slick-next {
+      display: none !important;
+   }
+
+   .slick-dots li.slick-active button {
+      background: #da5e3a;
+   }
+
+   .our-products__title-and-action {
+
+      .our-products__title {
+
+         @media (max-width: 991px) {
+            width: 100%;
+         }
+      }
+
+      .product-tabs__action {
+         padding-top: 10px;
+         padding-left: 20px;
+
+         @media (max-width: 991px) {
+            display: none;
+         }
+      }
+   }
+}
+
+.sidebar-our-products__wrap {
+   margin-right: 10%;
+
+   @media (max-width: 991px) {
+      margin: 0px;
+   }
+
+   .slick-list {
+      overflow: visible;
+
+      @media (max-width: 991px) {
+         overflow: hidden;
+      }
+   }
+}

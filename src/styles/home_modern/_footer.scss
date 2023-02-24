@@ -1,0 +1,242 @@
+/* ==========================================================================
+   12.3 #MODERN FOOTER
+   ========================================================================== */
+.modern-footer {
+   background: #f2f5fa;
+   padding: 100px 0px 75px 0px;
+
+   @media (max-width: 991px) {
+      padding: 60px 0px 50px 0px;
+   }
+
+   .blog-newsletter {
+      padding: 0px 0px 85px 0px;
+
+      @media (max-width: 991px) {
+         padding: 0px 0px 65px 0px;
+      }
+   }
+
+   .blog-newsletter__title {
+
+      @media (max-width: 991px) {
+         text-align: center;
+      }
+   }
+}
+
+.mobile-order-2 {
+
+   @media (max-width: 991px) {
+      order: 2;
+   }
+}
+
+.mobile-order-3 {
+
+   @media (max-width: 991px) {
+      order: 3;
+   }
+}
+
+/* Menu */
+.modern-footer__menu {
+   list-style: none;
+   margin: 65px 0px 75px 0px;
+   padding: 0px;
+   text-align: center;
+
+   @media (max-width: 991px) {
+      margin: 35px -20px 65px -20px;
+      position: relative;
+      overflow-x: scroll;
+   }
+
+   li {
+      display: inline-block;
+      margin: 0px 26px;
+      font-size: 16px;
+
+      @media (max-width: 991px) {
+         margin: 0px 18px;
+         font-size: 12px;
+      }
+
+      a {
+         color: #000;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+      }
+   }
+}
+
+/* Social */
+.modern-footer__social {
+
+   @media (max-width: 991px) {
+      text-align: center;
+      padding: 35px 0px 0px 0px;
+   }
+
+   p {
+      color: #000;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 0px 0px 25px 0px;
+
+      @media (max-width: 991px) {
+         font-size: 10px;
+         letter-spacing: 0.5px;
+         padding: 0px 0px 15px 0px;
+      }
+   }
+
+   ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+
+      li {
+         display: inline-block;
+         vertical-align: top;
+         margin-right: 22px;
+
+         @media (max-width: 991px) {
+            margin: 0px 10px;
+         }
+
+         a {
+            font-size: 20px;
+
+            @media (max-width: 991px) {
+               font-size: 18px;
+            }
+         }
+      }
+   }
+}
+
+/* Currency */
+.modern-footer__currency {
+   text-align: right;
+
+   @media (max-width: 991px) {
+      text-align: center;
+      padding: 35px 0px 0px 0px;
+   }
+
+   p {
+      color: #000;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 0px 0px 25px 0px;
+
+      @media (max-width: 991px) {
+         font-size: 10px;
+         letter-spacing: 0.5px;
+         padding: 0px 0px 15px 0px;
+      }
+   }
+
+   ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+
+      li {
+         display: inline-block;
+         vertical-align: top;
+         margin-left: 30px;
+
+         @media (max-width: 991px) {
+            margin: 0px 13px;
+         }
+
+         a {
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: #999;
+            text-transform: uppercase;
+
+            @media (max-width: 991px) {
+               font-size: 13px;
+            }
+
+            &.active,
+            &:hover {
+               color: #000;
+            }
+         }
+      }
+   }
+}
+
+/* Logo */
+.modern-footer__logo {
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+   font-size: 30px;
+   line-height: 1;
+   // font-family: "Marcellus";
+  //font-family: "Raleway";
+  font-family: 'Noto Sans', sans-serif;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #000;
+
+   @media (max-width: 991px) {
+      font-size: 22px;
+   }
+
+   img {
+      max-width: 100%;
+   }
+}
+
+/* Address */
+.modern-footer__address {
+   text-align: center;
+   line-height: 2;
+   padding: 30px 0px 0px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding: 20px 0px 0px 0px;
+   }
+}
+
+/* Payment */
+.modern-footer__payment {
+   text-align: center;
+   padding: 60px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding-top: 45px;
+   }
+
+   img {
+      max-width: 100%;
+   }
+}
+
+/* Copyright */
+.modern-footer__copyright {
+   padding: 60px 0px 0px 0px;
+   margin: 0px;
+   text-align: center;
+   font-size: 14px;
+   color: #000;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+
+   @media (max-width: 991px) {
+      padding: 40px 0px 0px 0px;
+      font-size: 12px;
+   }
+}

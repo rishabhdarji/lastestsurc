@@ -1,0 +1,117 @@
+/* ==========================================================================
+   19.10 #HOME SHOPPABLE - VIDEO
+   ========================================================================== */
+.shoppable-video {
+   margin-top: 155px;
+   height: 750px;
+   position: relative;
+   overflow: hidden;
+
+   @media (max-width: 991px) {
+      margin-top: 70px;
+      height: 400px;
+   }
+}
+
+.shoppable-video__background-image {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: #000;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.shoppable-video__iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-size: cover;
+
+   iframe {
+      width: 150%;
+      height: 150%;
+      min-height: 100vh;
+      min-width: 177.77vh;
+      position: absolute;
+      top: -25%;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+   }
+}
+
+.shoppable-video__content {
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   padding-top: 60px;
+   z-index: 3;
+   transform: translateY(-50%);
+   -wekbit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   text-align: center;
+
+   @media (max-width: 991px) {
+      padding-top: 20px;
+   }
+}
+
+.shoppable-video__title {
+   max-width: 900px;
+   margin: 0px auto;
+   font-size: 36px;
+   line-height: 60px;
+   color: #fff;
+   font-weight: 400;
+
+   @media (max-width: 1199px) {
+      font-size: 32px;
+      line-height: 54px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 18px;
+      line-height: 28px;
+   }
+}
+
+.shoppable-video__action {
+   padding: 90px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding: 35px 0px 0px 0px;
+   }
+
+   a {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: inline-block;
+      position: relative;
+
+      @media (max-width: 991px) {
+         font-size: 12px;
+      }
+
+      &:before {
+         content: "";
+         display: block;
+         position: absolute;
+         bottom: 2px;
+         left: 0;
+         right: 0;
+         height: 1px;
+         background: #fff;
+      }
+   }
+}

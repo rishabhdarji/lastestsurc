@@ -1,0 +1,98 @@
+/* ==========================================================================
+   12.5 #MODERN MAIN BANNER
+   ========================================================================== */
+.modern-main-banner {
+   padding: 0px;
+   background-color: #bec4d0;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   height: 1080px;
+   position: relative;
+
+   @media (max-width: 991px) {
+      height: 720px;
+      background-position: 70% center;
+   }
+}
+
+.modern-main-banner__content {
+   padding-top: 110px;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   color: #fff;
+
+   @media (max-width: 991px) {
+      padding-top: 90px;
+   }
+}
+
+.modern-main-banner__subtitle {
+   font-size: 22px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      letter-spacing: 3px;
+   }
+}
+
+.modern-main-banner__title {
+   color: #fff;
+   padding: 65px 0px 0px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding-top: 35px;
+      font-size: 48px;
+   }
+}
+
+.modern-main-banner__description {
+   padding: 55px 0px 0px 0px;
+   margin: 0px;
+   font-size: 24px;
+
+   @media (max-width: 991px) {
+      padding: 30px 0px 0px 0px;
+      font-size: 14px;
+   }
+}
+
+.modern-main-banner__buttons {
+   padding: 110px 0px 0px 0px;
+   margin: 0px;
+   display: flex;
+
+   @media (max-width: 991px) {
+      padding-top: 70px;
+   }
+
+   a {
+      display: block;
+      padding: 14px 35px;
+      letter-spacing: 1px;
+      margin-right: 10px;
+      border: 1px solid #fff;
+      color: #fff;
+      text-transform: uppercase;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+
+      @media (max-width: 991px) {
+         padding: 9px 27px;
+      }
+
+      &:hover {
+         background: #fff;
+         color: #000;
+      }
+   }
+}

@@ -1,0 +1,211 @@
+
+
+// @media (min-width: 992px){
+// .container {
+//     max-width: 990px;
+// }
+// }
+
+// @media (min-width: 768px){
+// .container {
+//     max-width: 760px;
+// }
+// }
+// .container {
+//     width: 100%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pbBlockGutter {
+    padding-bottom: 30px;
+}
+
+.velaFeatureText .featureBox {
+    position: relative;
+}
+
+.mbBlockGutter, .mbItemGutter {
+    margin-bottom: 30px;
+}
+
+.velaFeatureText .featureBox:before {
+    left: 165px;
+    right: 0;
+    top: 10px;
+    bottom: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    border: 10px solid #f6f6f6;
+}
+
+.velaFeatureText .position_right>div {
+    flex-direction: row-reverse;
+}
+.rowFlexMargin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.flexAlignCenter {
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.rowFlex {
+    // display: -ms-flexbox;
+    // display: -webkit-flex;
+   // display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+// @media (min-width: 992px){
+// .col-md-7 {
+//     width: 58.33333%;
+// }
+// }
+
+// @media (min-width: 992px){
+// .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+//     float: left;
+// }
+// }
+// @media (min-width: 768px){
+// .col-sm-12 {
+//     width: 100%;
+// }
+// }
+// @media (min-width: 768px){
+// .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+//     float: left;
+// }
+// }
+// .col-xs-12, #fullWidthVertical .ajaxFilter {
+//     width: 100%;
+// }
+// .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #fullWidthVertical .ajaxFilter {
+//     float: left;
+// }
+// .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xl-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, #fullWidthVertical .ajaxFilter, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+//     position: relative;
+//     min-height: 1px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
+
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+.p-relative, .velaSlideshowWrapper {
+    position: relative;
+}
+
+.product-card__image .product-card__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.no-js .placeholder-background--animation {
+    display: none;
+}
+
+.placeholder-background--animation {
+    background-color: #f5f5f5;
+    -webkit-animation: placeholder-background-loading 1.5s infinite linear;
+    -o-animation: placeholder-background-loading 1.5s infinite linear;
+    animation: placeholder-background-loading 1.5s infinite linear;
+}
+
+
+@media (min-width: 992px){
+.col-md-5 {
+    width: 41.66667%;
+}
+}
+
+// @media (min-width: 992px){
+// .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+//     float: left;
+// }
+// }
+// @media (min-width: 768px){
+// .col-sm-12 {
+//     width: 100%;
+// }
+// }
+// @media (min-width: 768px){
+// .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+//     float: left;
+// }
+// }
+// .col-xs-12, #fullWidthVertical .ajaxFilter {
+//     width: 100%;
+// }
+// .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #fullWidthVertical .ajaxFilter {
+//     float: left;
+// }
+
+// @media (min-width: 768px){
+// .velaFeatureText .featureBoxWrap {
+//     padding-right: 70px;
+// }
+// }
+
+.velaFeatureText .featureHeading {
+    color: #222;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Raleway;
+    position: relative;
+    padding: 25px 0;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.p-relative, .velaSlideshowWrapper {
+    position: relative;
+}
+
+.velaFeatureText .featuredesc {
+    font-style: inherit;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.velaFeatureText .btnFeature {
+    color: #e09878;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    font-size: 14px;
+}

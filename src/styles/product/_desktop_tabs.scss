@@ -1,0 +1,230 @@
+/* ==========================================================================
+   #DESKTOP TABS
+   ========================================================================== */
+.product__desktop-tabs {
+
+   @media (max-width: 991px) {
+      display: none !important;
+   }
+}
+
+.tabs__nav {
+   display: flex;
+   align-items: end;
+   border-bottom: 1px solid #dedede;
+   list-style: none;
+   padding: 110px 0px 0px 0px;
+   margin: 0px;
+
+   li {
+      padding: 0px;
+      margin: 0px 45px 0px 0px;
+
+      a {
+         display: block;
+         border-bottom: 2px solid transparent;
+         position: relative;
+         margin-bottom: -1px;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+         font-size: 16px;
+         color: #666666;
+         text-transform: uppercase;
+         letter-spacing: 0.5px;
+         padding: 13px 0px;
+
+         &.active {
+            border-color: #000;
+            color: #000;
+         }
+      }
+   } 
+}
+
+.tab-content {
+ 
+
+   @media (max-width: 991px) {
+      font-size: 13px;
+      line-height: 22px;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      // font-family: "Jost";
+  font-family: "Raleway";
+      line-height: 1.2;
+      font-size: 30px;
+      padding: 40px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 25px;
+         font-size: 20px;
+      }
+   }
+
+   p {
+      padding: 25px 0px 0px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         padding-top: 15px;
+      }
+   }
+
+   ul {
+      padding: 25px 0px 0px 14px;
+      margin: 0px;
+      list-style: none;
+
+      @media (max-width: 991px) {
+         padding-top: 20px;
+      }
+
+      li {
+         position: relative;
+
+         &:before {
+            content: '-';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -14px;
+         }
+      }
+   }
+
+   .shipping-returns {
+      display: flex;
+      margin: 0px -20px;
+      position: relative;
+
+      .shipping,
+      .returns {
+         width: 50%;
+         min-width: 50%;
+         padding: 0px 20px;
+      }
+   }
+
+   .contact-page__form {
+      padding-top: 20px;
+   }
+
+   .row {
+      margin: 0px -50px;
+
+      @media (max-width: 1098px) {
+         margin: 0px -30px;
+      }
+
+      > div {
+         padding: 0px 50px;
+
+         @media (max-width: 1098px) {
+            padding: 0px 30px;
+         }
+      }
+
+      .row {
+         margin: 0px -20px;
+
+         > div {
+            padding: 0px 20px;
+         }
+      }
+   }
+}
+
+.tab-content__active {
+   display: block;
+}
+
+.tab-content__show {
+   opacity: 1;
+}
+
+/* Description tab */
+.custom-description {
+   flex-wrap: wrap;
+   padding-top: 65px;
+
+   @media (max-width: 991px) {
+      padding-top: 0px !important;
+   }
+}
+
+.custom-description__text {
+   width: 50%;
+   min-width: 50%;
+   padding: 70px 0px 100px 6.4%;
+
+   @media (max-width: 1399px) {
+      padding: 50px 0px 80px 5%;
+   }
+
+   @media (max-width: 1199px) {
+      padding-top: 30px;
+      padding-bottom: 60px;
+   }
+
+   @media (max-width: 991px) {
+      padding: 0px !important;
+      width: 100%;
+      min-width: 100%;
+   }
+}
+
+.custom-description__text--left {
+   padding-right: 6.4%;
+
+   @media (max-width: 1399px) {
+      padding-right: 5%;
+   }
+}
+
+.custom-description__image {
+   width: 50%;
+   min-width: 50%;
+
+   @media (max-width: 991px) {
+      display: none !important;;
+   }
+
+   img {
+      display: block;
+      width: 100%;
+      height: 570px;
+      object-fit: cover;
+   }
+}
+
+.custom-description__small-heading {
+   font-size: 18px !important;
+   text-transform: uppercase;
+   padding-top: 50px !important;
+
+   @media (max-width: 991px) {
+      font-size: 14px !important;
+      padding-top: 25px !important;
+   }
+}
+
+.description__image {
+   padding-top: 40px;
+
+   @media (max-width: 991px) {
+      padding-top: 20px;
+   }
+
+   img {
+      display: block;
+      width: 100%;
+   }
+}

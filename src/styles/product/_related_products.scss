@@ -1,0 +1,157 @@
+/* ==========================================================================
+   #COMPLETE YOUR OUTFIT
+   ========================================================================== */
+.related-products {
+   padding: 0px 0px 115px 0px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 90px;
+   }
+
+   .js-related-products {
+      display: none;
+
+      &.slick-initialized {
+         display: block;
+      }
+   }
+
+   hr {
+      margin-bottom: 95px;
+
+      @media (max-width: 991px) {
+         display: none;
+      }
+   }
+
+   .result-product {
+      width: 100%;
+      min-width: 100%;
+      padding: 0px;
+   }
+
+   .product-grid-item__action,
+   .product-grid-item__tag {
+      display: none !important;
+   }
+
+   .slick-list {
+      margin: 0px -25px;
+
+      @media (max-width: 1399px) {
+         margin: 0px -20px;
+      }
+
+      @media (max-width: 991px) {
+         margin: 0px -5px;
+      }
+
+      .slick-slide {
+         padding: 0px 25px;
+
+         @media (max-width: 1399px) {
+            padding: 0px 20px;
+         }
+
+         @media (max-width: 991px) {
+            padding: 0px 5px;
+         }
+      }
+   }
+
+   .slick-prev {
+      position: absolute;
+      top: -85px;
+      right: 75px;
+      left: auto;
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 1499px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc1";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 30px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+
+   .slick-next {
+      position: absolute;
+      top: -85px;
+      right: -5px;
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 1499px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc3";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 30px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+}
+
+.related-products__title {
+   margin: 0px 0px 50px 0px;
+   font-size: 36px;
+
+   @media (max-width: 1098px) {
+      font-size: 30px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+}
+
+.complete-your-outfit + .related-products {
+   margin-top: -30px;
+   position: relative;
+}

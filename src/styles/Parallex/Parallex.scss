@@ -1,0 +1,59 @@
+.parellex_container {
+   // padding: 80px;
+   // display: flex;
+    
+
+    // @media (max-width: 991px) {
+    //     padding: 60px 0px 65px 0px;
+    //  }
+
+
+
+}
+
+
+
+.velaBackgroundParallax.bg_parallax {
+    background-attachment: fixed;
+
+    @media (min-width: 768px)
+ {
+    background-attachment: fixed;
+}
+}
+
+.velaBackgroundParallax.bg_image .velaBannerTextInner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.velaBackgroundParallax.bg_parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// .container {
+//     font-family: Poppins,Helvetica,Arial,sans-serif;
+//     font-size: 14px;
+//     line-height: 24px;
+//     color: #666;
+//    // background-color: #fff;
+//     font-weight: 400;
+//     overflow-x: hidden;
+// }
+
+
+.velaServicesInner {
+    padding-top: 30px;
+}
+
+.boxService {
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #ffe0d2;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+

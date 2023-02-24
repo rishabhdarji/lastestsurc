@@ -1,0 +1,122 @@
+/* ==========================================================================
+   7.2 #HOME ABOUT US
+   ========================================================================== */
+.home-about-us__background {
+   background: #fff;
+   position: relative;
+   padding: 100px 0px 120px 0px;
+
+   @media (max-width: 991px) {
+      padding: 50px 0px 70px 0px;
+      margin-right: -35px;
+   }
+
+   &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      bottom: 0;
+      width: 100%;
+      background: #fff;
+   }
+}
+
+/* Title */
+.home-about-us__title {
+   padding: 0px 0px 30px 0px;
+   margin: 0px;
+}
+
+/* Description */
+.home-about-us__description {
+
+}
+
+/* Feature */
+.home-about-us__feature {
+   max-width: 570px;
+   margin: 90px 0 70px;
+
+   @media (max-width: 1098px) {
+      max-width: 100%;
+   }
+
+   @media (max-width: 991px) {
+      margin: 50px 0px 0px 0px;
+   }
+}
+
+.feature__icon {
+   width: 60px;
+   margin-right: 45px;
+
+   @media (max-width: 991px) {
+      width: 40px;
+      margin-right: 30px;
+   }
+
+   i {
+      font-size: 60px;
+      color: #000;
+
+      @media (max-width: 991px) {
+         font-size: 40px;
+      }
+   }
+}
+
+.feature__h6 {
+   padding: 0px 0px 20px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      font-size: 16px;
+   }
+}
+
+.feature__description {
+   color: #999;
+}
+
+/* Right image */
+.home-about-us__right-image {
+   position: absolute;
+   left: 63%;
+   bottom: 455px;
+   z-index: 3;
+
+   img {
+      max-height: 300px;
+   }
+
+   @media (max-width: 1098px) {
+      display: none;
+   }
+
+   @media (max-width: 991px) {
+      display: block;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      margin-top: 70px;
+      margin-right: -20px;
+      margin-left: 10px;
+
+      img {
+         max-width: 100%;
+      }
+   }
+}
+
+.home-about-us__right-image--second {
+   bottom: 155px;
+   left: 65%;
+
+   @media (max-width: 991px) {
+      bottom: 0;
+      left: 0;
+      margin-top: 48px;
+   }
+}

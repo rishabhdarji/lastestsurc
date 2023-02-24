@@ -1,0 +1,16 @@
+/* ==========================================================================
+   19.8 #HOME SHOPPABLE - OUR PRODUCTS
+   ========================================================================== */
+.shoppable-our-products {
+   padding-bottom: 0px;
+   margin-bottom: -60px;
+   position: relative;
+
+   @media (max-width: 991px) {
+      margin-bottom: -30px;
+   }
+
+   .our-products__title {
+      font-weight: 400;
+   }
+}

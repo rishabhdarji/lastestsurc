@@ -1,0 +1,219 @@
+/* ==========================================================================
+   #Frequently Bought Together
+   ========================================================================== */
+.frequently-bought-together {
+   padding: 140px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding: 45px 0px 0px 0px;
+   }
+}
+
+.frequently-bought-together__title {
+   font-size: 36px;
+   padding: 0px 0px 48px 0px;
+   margin: 0px;
+
+   @media (max-width: 1098px) {
+      font-size: 30px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 20px;
+      padding: 0px 0px 25px 0px;
+   }
+}
+
+/* D-flex */
+.frequently-bought-together__d-flex {
+
+   @media (max-width: 991px) {
+      flex-wrap: wrap;
+   }
+}
+
+/* Products grid */
+.frequently-bought-together__products {
+   width: 80%;
+   padding-right: 80px;
+
+   @media (max-width: 991px) {
+      width: 100%;
+      padding-right: 0px;
+   }
+}
+
+.frequently-bought-together__products-grid {
+   margin: 0px -50px;
+   position: relative;
+
+   @media (max-width: 1199px) {
+      margin: 0px -35px;
+   }
+
+   @media (max-width: 991px) {
+      margin: 0px -15px;
+   }
+
+   .result-product {
+      min-width: 1px;
+      width: 372px;
+      max-width: 33.333%;
+      padding: 0px 50px;
+
+      @media (max-width: 1199px) {
+         padding: 0px 35px;
+      }
+
+      @media (max-width: 991px) {
+         padding: 0px 15px;
+      }
+
+      &:first-of-type {
+
+         .result-product__image {
+
+            &:before {
+               display: none;
+            }
+         }
+      }
+   }
+
+   .result-product__image {
+      position: relative;
+
+      &:before {
+         content: "\ec81";
+         font: normal normal normal 1em/1 'LineIconsPro Regular';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: -60px;
+         transform: translateY(-50%);
+         -webkit-transform: translateY(-50%);
+         -moz-transform: translateY(-50%);
+         font-size: 24px;
+
+         @media (max-width: 1199px) {
+            left: -48px;
+         }
+
+         @media (max-width: 991px) {
+            font-size: 12px;
+            left: -21px;
+         }
+      }
+   }
+}
+
+/* Products list */
+.frequently-bought-together__products-list {
+   margin-top: 40px;
+
+   @media (max-width: 991px) {
+      margin-top: 10px;
+   }
+
+   .form-checkbox__label {
+      color: #666666;
+
+      strong {
+         text-transform: uppercase;
+         padding-right: 4px;
+         color: #000;
+      }
+
+      span {
+         color: #000;
+      }
+   }
+}
+
+/* Action */
+.frequently-bought-together__action {
+   margin-left: auto;
+   width: 365px;
+
+   @media (max-width: 991px) {
+      width: 100%;
+      margin: 0px;
+      padding-top: 10px;
+   }
+}
+
+.frequently-bought-together__total {
+
+   span {
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+   }
+
+   p {
+      padding: 5px 0px 0px 0px;
+      margin: 0px;
+      font-size: 48px;
+      line-height: 1.2;
+      color: #000;
+
+      @media (max-width: 1199px) {
+         font-size: 36px;
+      }
+
+      @media (max-width: 991px) {
+         font-size: 24px;
+      }
+   }
+}
+
+.frequently-bought-together__buttons {
+   padding-top: 21px;
+
+   @media (max-width: 991px) {
+      padding-top: 15px;
+   }
+
+   a {
+      display: block;
+      width: 100%;
+      margin-top: 19px;
+      text-align: center;
+      position: relative;
+
+      @media (max-width: 991px) {
+         margin-top: 10px;
+      }
+
+      &:before {
+         content: '';
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         width: 20px;
+         height: 20px;
+         background: url(loader.svg?v=3) top center no-repeat;
+         background-size: cover;
+         transform: translate(-50%, -50%);
+         -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         opacity: 0;
+         pointer-events: none;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+
+      &.is-loading {
+         color: rgba(0, 0, 0, 0);
+
+         &:before {
+            opacity: 1;
+         }
+      }
+   }
+}

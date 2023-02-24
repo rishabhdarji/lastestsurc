@@ -1,0 +1,29 @@
+/* ==========================================================================
+   8.8 #FAQ PAGE
+   ========================================================================== */
+.faq-page {
+   padding: 0px 0px 150px 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 90px 0px;
+   }
+
+   .accordion__title {
+      cursor: pointer;
+   }
+
+   .accordion__title {
+
+      @media (min-width: 992px) {
+         font-size: 16px;
+      }
+   }
+}
+
+.faq-section__title {
+   padding: 80px 0px 0px 0px;
+
+   @media (max-width: 991px) {
+      padding-top: 60px;
+   }
+}

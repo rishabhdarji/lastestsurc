@@ -1,0 +1,79 @@
+/* ==========================================================================
+   14.1 #HOME DARK - BANNERS
+   ========================================================================== */
+.dark-banners {
+
+   @media (max-width: 1199px) {
+      padding-top: 65px;
+   }
+
+   @media (max-width: 991px) {
+      padding-top: 25px;
+   }
+
+   .row {
+      margin: 0px -45px;
+
+      > div {
+         padding: 0px 45px;
+      }
+   }
+
+   .featured-product {
+      margin-top: 95px;
+
+      @media (max-width: 1199px) {
+         margin-top: 30px;
+      }
+
+      @media (max-width: 991px) {
+         margin-top: 20px;
+      }
+   }
+
+   .featured-product__image {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #222;
+
+      img {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+
+   .featured-product__category {
+      color: #eaddc7;
+      font-size: 14px;
+   }
+
+   .featured-product__product-name {
+      color: #fbf7ef;
+   }
+
+   .featured-product__product-description {
+      color: #ccc;
+   }
+
+   .button {
+      color: #fbf7ef;
+      border-color: #fbf7ef;
+      border-width: 1px;
+      font-weight: 600;
+
+      &:hover {
+         color: #fff;
+         background: #da5f39;
+         border-color: #da5f39;
+      }
+   }
+}

@@ -1,0 +1,231 @@
+/* ==========================================================================
+   17.7 #HOME SIDEBAR - TESTIMONIALS
+   ========================================================================== */
+.sidebar-testimonials {
+   background: #e9ecf2;
+   padding: 120px 0px 100px 0px;
+
+   @media (max-width: 991px) {
+      padding: 70px 0px 55px 0px;
+   }
+
+   .slick-list {
+      margin: 0px -40px;
+
+      @media (max-width: 991px) {
+         margin: 0px -20px;
+      }
+
+      .slick-slide {
+         padding: 0px 40px;
+
+         @media (max-width: 991px) {
+            padding: 0px 20px;
+         }
+      }
+   }
+
+   .slick-prev {
+      position: absolute;
+      top: -104px;
+      right: 55px;
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 991px) {
+         top: -66px;
+         right: 45px;
+      }
+      
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc1";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 30px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+
+         @media (max-width: 991px) {
+            font-size: 20px;
+         }
+      }
+   }
+
+   .slick-next {
+      position: absolute;
+      top: -104px;
+      right: 0px;
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 991px) {
+         top: -66px;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc3";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 30px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+
+         @media (max-width: 991px) {
+            font-size: 20px;
+         }
+      }
+   }
+}
+
+.sidebar-testimonials__title {
+   text-align: left;
+   padding: 0px 0px 70px 0px;
+   margin: 0px;
+   font-size: 36px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 40px 0px;
+      font-size: 24px;
+   }
+}
+
+.sidebar-testimonial {
+   display: block !important;
+   padding: 60px;
+   background: #fff;
+
+   @media (max-width: 991px) {
+      padding: 30px;
+   }
+}
+
+.sidebar-testimonial__author {
+   display: flex;
+   align-items: center;
+}
+
+.sidebar-testimonial__avatar {
+   width: 60px;
+   min-width: 60px;
+   margin-right: 20px;
+
+   @media (max-width: 991px) {
+      width: 52px;
+      min-width: 52px;
+   }
+
+   img {
+      display: block;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+
+      @media (max-width: 991px) {
+         width: 52px;
+         height: 52px;
+      }
+   }
+}
+
+.sidebar-testimonial__author-icon {
+   margin-left: auto;
+   text-align: right;
+   font-size: 36px;
+   color: #999;
+   padding-left: 20px;
+
+   @media (max-width: 991px) {
+      font-size: 24px;
+   }
+}
+
+.sidebar-testimonial__author-info {
+
+   > a {
+      font-size: 20px;
+      color: #000;
+      line-height: 1.1;
+
+      @media (max-width: 991px) {
+         font-size: 17px;
+      }
+   }
+
+   p {
+      padding: 3px 0px 0px 0px;
+      margin: 0px;
+      font-size: 16px;
+      color: #999;
+      line-height: 1.1;
+
+      @media (max-width: 991px) {
+         font-size: 14px;
+      }
+
+      a {
+         color: #999;
+      }
+   }
+}
+
+.sidebar-testimonial__content {
+   color: #000000;
+   font-size: 30px;
+   line-height: 40px;
+   padding: 40px 0px 0px 0px;
+   margin: 0px -20px 0px 0px;
+   position: relative;
+
+   @media (max-width: 1199px) {
+      font-size: 26px;
+      line-height: 36px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 22px;
+      line-height: 30px;
+      padding: 25px 0px 0px 0px;
+      margin: 0px;
+   }
+
+   a {
+      color: #00ccff;
+   }
+}

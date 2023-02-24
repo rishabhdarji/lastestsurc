@@ -1,0 +1,172 @@
+/* ==========================================================================
+   #PRODUCT REVIEWS
+   ========================================================================== */
+.review {
+   padding: 40px 0px 36px 0px;
+
+   @media (max-width: 991px) {
+      padding: 30px 0px 26px 0px;
+   }
+
+   &:last-of-type {
+      padding-bottom: 20px;
+   }
+}
+
+.review__title {
+   padding-bottom: 10px !important;
+
+   @media (max-width: 991px) {
+      padding-bottom: 0px !important;
+   }
+}
+
+.review + .review {
+   border-top: 1px solid #d8d8d8;
+}
+
+.review__avatar {
+   width: 70px;
+   min-width: 70px;
+   margin-right: 35px;
+
+   @media (max-width: 991px) {
+      width: 60px;
+      min-width: 60px;
+      margin-right: 20px;
+   }
+
+   img {
+      display: block;
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+
+      @media (max-width: 991px) {
+         width: 60px;
+         height: 60px;
+      }
+   }
+}
+
+.review__details {
+   width: 100%;
+}
+
+.review__title {
+   font-size: 20px;
+   color: #000;
+
+   @media (max-width: 991px) {
+      font-size: 16px;
+   }
+}
+
+.review__rating {
+   white-space: nowrap;
+   margin-left: auto;
+   padding-left: 15px;
+
+   i {
+      font-size: 12px;
+      color: #cccccc;
+
+      @media (max-width: 991px) {
+         font-size: 9px;
+      }
+
+      &.active {
+         color: #40a106;
+      }
+   }
+}
+
+.review__content {
+   padding: 17px 0px 0px 0px;
+   font-size: 16px;
+   line-height: 26px;
+
+   @media (max-width: 991px) {
+      font-size: 14px;
+      line-height: 24px;
+      padding: 12px 0px 0px 0px;
+   }
+}
+
+.review__meta {
+   padding: 25px 0px 0px 0px;
+   font-size: 14px;
+   color: #999999;
+
+   @media (max-width: 991px) {
+      padding-top: 20px;
+      font-size: 12px;
+   }
+
+   span {
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+   }
+}
+
+/* Add a review */
+.review__form {
+   padding: 16px 0px 0px 0px;
+
+   .form__required-fields {
+      padding-bottom: 20px;
+   }
+
+   .form-group {
+      margin-bottom: 20px;
+   }
+
+   .form-checkbox {
+      padding: 10px 0px;
+   }
+}
+
+.form__your-rating {
+   padding: 0px 0px 15px 0px;
+}
+
+.your-rating__title {
+   width: 130px;
+   padding-right: 20px;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+
+   @media (max-width: 991px) {
+      font-size: 12px;
+      width: 110px;;
+   }
+}
+
+.your-rating__content {
+   font-size: 12px;
+   line-height: 20px;
+
+   @media (max-width: 991px) {
+      font-size: 9px;
+   }
+
+   i {
+      color: #cccccc;
+      cursor: pointer;
+      display: inline-block;
+      padding-right: 3px;
+      margin-right: -3px;
+      position: relative;
+
+      &.active {
+         color: #40a106;
+      }
+   }
+}

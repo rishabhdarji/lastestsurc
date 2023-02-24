@@ -1,0 +1,58 @@
+/* ==========================================================================
+   18.5 #HOME MINIMAL - OUR JOURNAL
+   ========================================================================== */
+.minimal-our-journal {
+   padding: 0px 0px 170px 0px;
+
+   @media (max-width: 991px) {
+      padding-bottom: 70px;
+   }
+
+   .row {
+      margin: 0px -30px;
+
+      @media (max-width: 991px) {
+         margin: 0px -15px;
+      }
+
+      > div {
+         padding: 0px 30px;
+
+         @media (max-width: 991px) {
+            padding: 0px 15px;
+         }
+      }
+   }
+
+   .our-journal__title {
+      text-align: left;
+      padding: 120px 0px 75px 0px;
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         text-align: center;
+         width: 100%;
+         padding: 70px 0px 10px 0px;
+      }
+   }
+
+   .our-journal__action {
+      padding: 130px 0px 0px 30px;
+
+      @media (max-width: 991px) {
+         display: none;
+      }
+
+      a {
+         color: #000;
+      }
+   }
+
+   .blog-article {
+      margin: 0px;
+
+      @media (max-width: 991px) {
+         margin: 40px 0px 0px 0px;
+      }
+   }
+}

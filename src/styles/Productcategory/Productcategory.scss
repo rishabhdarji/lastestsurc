@@ -1,0 +1,1210 @@
+#pageContent {
+    position: relative;
+    overflow: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+@media (min-width: 992px){
+.pb-md-30 {
+    padding-bottom: 30px;
+}
+}
+.mb20 {
+    margin-bottom: 20px!important;
+}
+
+.row, #fullWidthVertical .velaFilter .velaContent {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@media (min-width: 992px) and (min-width: 992px){
+    .filterTagFullwidthContent.velaSidebar {
+        width: 260px;
+    }
+}
+
+@media (min-width: 992px){
+.filterTagFullwidthContent.velaSidebar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    left: inherit;
+    top: -10px;
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    overflow-y: inherit;
+    position: relative;
+    height: auto;
+    float: left;
+    padding: 0 15px;
+}}
+.filterTagFullwidthContent {
+    position: fixed;
+    top: 0;
+    left: -320px;
+    z-index: 900;
+    padding: 30px;
+    width: 320px;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    // -webkit-box-shadow: 0 3px 9px 0 rgb(0 0 0 / 10%);
+    // box-shadow: 0 3px 9px #0000001a;
+    // -webkit-transition: all .4s cubic-bezier(.46,.01,.32,1);
+    // -o-transition: all .4s cubic-bezier(.46,.01,.32,1);
+    // transition: all .4s cubic-bezier(.46,.01,.32,1);
+}
+.filterTagFullwidthClose {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+}
+// @media (min-width: 1220px){
+// .hidden-lg {
+//     display: none!important;
+
+
+// }}
+
+.velaBlock {
+    margin-bottom: 30px;
+}
+
+.velaCategoriesSidebar .titleSidebar {
+    border-top: 0;
+    padding-top: 25px;
+}
+.titleSidebar {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    position: relative;
+    text-transform: uppercase;
+    color: #222;
+    border-bottom: 2px solid #a4d5dc;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #222;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sidebarListCategories>.sidebarCateItem:not(:last-child) {
+    border-bottom: 1px dotted #ddd;
+}
+
+.sidebarCateItem {
+    position: relative;
+}
+
+.sidebarCateItem a {
+    display: block;
+    padding: 10px 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    line-height: 26px;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+.sidebarCateItem a:hover, .sidebarCateItem a.active {
+    color: #e09878;
+}
+
+a:active, button:active, .btn:active {
+    outline: none;
+}
+
+a:focus, button:focus, .btn:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a:hover, a:focus {
+    color: #e09878;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+
+body {
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #fff;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+@media (min-width: 992px){
+.pb-md-20 {
+    padding-bottom: 20px;
+}
+}
+
+.mb30 {
+    margin-bottom: 30px!important;
+}
+
+@media (min-width: 992px){
+.velaCenterColumnFix {
+    width: calc(100% - 260px)!important;
+}
+}
+
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xl-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, #fullWidthVertical .ajaxFilter, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div {
+    display: block;
+}
+
+
+.productSidebar {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.productSidebarName a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+
+.filterCollectionFullwidth {
+    border-bottom: 1px solid #a4d5dc;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+
+@media (min-width: 1220px){
+.hidden-lg {
+    display: none!important;
+}}
+
+.filterTagFullwidthButton {
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    line-height: 20px;
+    margin-right: 15px;
+    color: #e09878;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+
+
+@media (min-width: 992px){
+.velaCenterColumnFix {
+    width: calc(100% - 260px)!important;
+    }  }
+@media (min-width: 768px){   
+.col-sm-12 {
+    width: 100%;
+}}
+@media (min-width: 768px){    
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}   }
+// .col-xs-12, #fullWidthVertical .ajaxFilter {
+//     width: 100%;
+// }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #fullWidthVertical .ajaxFilter {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xl-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, #fullWidthVertical .ajaxFilter, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filterCollectionFullwidth .collBoxSort {
+    width: 100%;
+    margin: 0;
+}
+.collBoxSort {
+    background-color: #fff;
+    margin: 15px 0 30px;
+}
+
+.collBoxSort .collView {
+    float: left;
+    margin-top: 5px;
+}
+@media (max-width:992px) {
+    .collView{
+        display: none;
+    }
+}
+.velaProBlock.list {
+    padding-bottom: 30px;
+}
+.velaProBlock .proFeaturedImage .proImageSecond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.velaProBlock:hover .proFeaturedImage .proImageSecond {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.collBoxSort .changeView.changeViewActive {
+    background-color: #e09878;
+}
+.collBoxSort .changeView {
+    padding: 0;
+    background-color: #333;
+    border: 0;
+    font-size: 14px;
+    color: #1f1f1f;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.collBoxSort .changeView {
+    padding: 0;
+    
+    border: 0;
+    font-size: 14px;
+    color: #1f1f1f;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.collSortBy {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+}
+.pull-right {
+    float: right!important;
+}
+.collBoxSort .changeView.changeViewActive .iconChangeView svg {
+    fill: #fff;
+}
+.collBoxSort .changeView .iconChangeView svg {
+    fill: #fff;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.collBoxSort .changeView {
+    padding: 0;
+    background-color: #333;
+    border: 0;
+    font-size: 14px;
+    color: #1f1f1f;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button {
+    overflow: visible;
+}
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a:active:focus, button:active:focus, .btn:active:focus {
+    outline: none;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.collBoxSort .changeView .iconChangeView svg {
+    fill: #fff;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.collSortBy>select {
+    width: auto;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: transparent;
+    border: 0;
+    color: #222;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 9px 20px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #a4d5dc;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.collSortBy:after {
+    content: "\f107";
+    top: 8px;
+    right: 10px;
+    color: #222;
+    font-family: FontAwesome;
+    font-size: 15px;
+    line-height: 24px;
+    position: absolute;
+}
+
+.collSortBy {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+}
+.pull-right {
+    float: right!important;
+}
+.pull-right {
+    float: right;
+}
+.collBoxSort:after {
+    clear: both;
+}
+.collBoxSort:before, .collBoxSort:after {
+    content: " ";
+    display: table;
+}
+.rowFlexMargin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.rowFlex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.velaProBlock.grid {
+    padding-bottom: 30px;
+}
+.velaProBlock {
+    position: relative;
+}
+@media (min-width: 1220px){
+.col-lg-6 {
+    width: 50%;
+}}
+@media (min-width: 1220px){
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+}}
+@media (min-width: 992px){ 
+.col-md-4 {
+    width: 33.33333%;
+}}
+@media (min-width: 992px){  
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+// .col-xs-6 {
+//     width: 50%;
+// }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #fullWidthVertical .ajaxFilter {
+    float: left;
+}}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xl-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, #fullWidthVertical .ajaxFilter, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.velaProBlock .proHImage {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.velaProBlock .proFeaturedImage {
+    display: block;
+    width: 100%;
+}
+.proFeaturedImage {
+    position: relative;
+    padding: 0;
+}
+a, button, [role=button], input, label, select, textarea {
+    touch-action: manipulation;
+}
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+
+.productLable {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+.p-relative, .velaSlideshowWrapper {
+    position: relative;
+}
+.product-card__image {
+    position: relative;
+    overflow: hidden;
+}
+.velaProBlock .proFeaturedImage img {
+    width: 100%;
+}
+.product-card__image .product-card__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.no-js .placeholder-background--animation {
+    display: none;
+}
+
+.placeholder-background--animation {
+    background-color: #f5f5f5;
+    -webkit-animation: placeholder-background-loading 1.5s infinite linear;
+    -o-animation: placeholder-background-loading 1.5s infinite linear;
+    animation: placeholder-background-loading 1.5s infinite linear;
+}
+
+
+.velaProBlock.grid .proButton {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 10;
+    display: flex;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+// .clearfix:before, .clearfix:after {
+//     content: " ";
+//     display: table;
+// }
+
+.velaProBlock.grid .formAddToCart {
+    width: 100%;
+}
+
+
+
+
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+.btnAddToCart, .proBoxInfo .shopify-payment-button__button {
+    color: #fff;
+    background-color: #a4d5dc;
+    border-color: #aee1e9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    padding: 10px 30px;
+    border-radius: 0!important;
+    font-family: Raleway;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    font-family: Raleway;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 9px 20px;
+    font-size: 14px;
+    line-height: 1.45;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+a {
+    background-color: transparent;
+}
+
+.velaProBlock.grid .btnProduct {
+    line-height: 38px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.btnProduct {
+    color: #fff;
+    background-color: #222;
+    border: 1px solid #222222;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 15px;
+    line-height: 20px;
+    height: auto;
+}
+
+
+
+
+.velaProBlock.grid .productQuickView {
+    width: 60px;
+    border-left: 1px solid #414141;
+}
+
+.velaProBlock.grid .proContent {
+    margin-top: 20px;
+}
+.velaProBlock .proContent {
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+.velaProBlock .proName {
+    margin: 0 0 10px;
+    padding: 0;
+}
+h5, .h5 {
+    font-size: 14px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #222;
+}
+
+.velaProBlock .proName a {
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    color: #222;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    font-weight: 500;
+}
+
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+
+.proPrice .priceProduct {
+    display: inline-block;
+}
+.priceProduct {
+    font-size: 15px;
+    color: #222;
+    line-height: 18px;
+    font-family: Raleway;
+}
+.velaSwatchProduct {
+    z-index: 10;
+    // display: block;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+   
+}
+.flexJustifyCenter {
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+// * {
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+.velaSwatchProduct > li {
+    display: inline-block;
+    padding: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.velaSwatchProduct>li>label {
+    display: block;
+    margin: 0;
+    width: 20px;
+    height: 25px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    box-shadow: 0 0 2px #ccc;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.hidden {
+    display: none!important;
+}
+
+
+.velaProBlock.grid {
+    padding-bottom: 30px;
+}
+.velaProBlock {
+    position: relative;
+}
+@media (min-width: 1220px){ 
+.col-lg-6 {
+    width: 50%;
+}}
+@media (min-width: 1220px){ 
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+}}
+@media (min-width: 992px){  
+.col-md-4 {
+    width: 33.33333%;
+}}
+@media (min-width: 992px){   
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+} }
+// .col-xs-6 {
+//     width: 50%;
+// }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #fullWidthVertical .ajaxFilter {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xl-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xl-5, .col-xs-6, .col-sm-6, #fullWidthVertical .ajaxFilter, .col-md-6, .col-lg-6, .col-xl-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xl-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xl-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xl-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xl-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xl-11, .col-xs-12, #fullWidthVertical .ajaxFilter, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.velaProBlock .proHImage {
+    position: relative;
+    overflow: hidden;
+}
+
+// .d-flex {
+//     display: -ms-flexbox;
+//     display: -webkit-flex;
+//     display: flex;
+// }
+
+.velaProBlock.grid .proContent {
+    margin-top: 20px;
+}
+.velaProBlock .proContent {
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 992px){ 
+.filterTagFullwidthContent.velaSidebar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    left: inherit;
+    top: -10px;
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    overflow-y: inherit;
+    position: relative;
+    height: auto;
+    float: left;
+    padding: 0 15px;
+} }
+
+
+.filterCollectionFullwidth .collBoxSort {
+    width: 100%;
+    margin: 0;
+}
+.collBoxSort {
+    background-color: #fff;
+    margin: 15px 0 30px;
+}
+.productSidebarImage {
+    flex: 0 0 80px;
+    padding-right: 15px;
+}
+.productSidebarContent {
+    width: 100%;
+}
+.productSidebarName {
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #222;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.productSidebarName a:hover, .productSidebarName a:focus {
+    color: #e09878;
+}
+.productSidebarName a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+a:hover, a:focus {
+    color: #e09878;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+
+@media (min-width: 1220px){
+.col-lg-6 {
+    width: 50%;
+}}
+// a {
+//     color: #222;
+//     text-decoration: none;
+// }
+
+// .product-card__image .product-card__img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: contain;
+// }
+// img {
+//     vertical-align: middle;
+// }
+// img {
+//     border: 0;
+// }
+
+
+
+.productSidebarName {
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+
+.filterTagFullwidth {
+    margin-top: 8px;
+}
+
+// @media (min-width: 1220px){ 
+// .hidden-lg {
+//     display: none!important;
+// }  }
+
+.fa-sliders:before {
+    content: "\f1de";
+}
+
+.filterTagFullwidthButton .fa {
+    margin-right: 5px;
+    line-height: 18px;
+}
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.velaProBlock .proFeaturedImage .proImageSecond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+
+
+
+
+
+
+.btnProduct:hover, .btnProduct:focus {
+    background-color: #e09878;
+    border-color: #e09878;
+    color: #fff;
+}
+
+.btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+    
+    box-shadow: inset 0 3px 5px #00000020;
+}
+.velaProBlock.grid .productQuickView .icons {
+    position: relative;
+    top: 3px;
+}
+
+.btnProduct .icons {
+    font-size: 18px;
+}
+
+.icon-action-redo, .icon-action-undo, .icon-anchor, .icon-arrow-down, .icon-arrow-down-circle, .icon-arrow-left, .icon-arrow-left-circle, .icon-arrow-right, .icon-arrow-right-circle, .icon-arrow-up, .icon-arrow-up-circle, .icon-badge, .icon-bag, .icon-ban, .icon-basket, .icon-basket-loaded, .icon-bell, .icon-book-open, .icon-briefcase, .icon-bubble, .icon-bubbles, .icon-bulb, .icon-calculator, .icon-calendar, .icon-call-end, .icon-call-in, .icon-call-out, .icon-camera, .icon-camrecorder, .icon-chart, .icon-check, .icon-chemistry, .icon-clock, .icon-close, .icon-cloud-download, .icon-cloud-upload, .icon-compass, .icon-control-end, .icon-control-forward, .icon-control-pause, .icon-control-play, .icon-control-rewind, .icon-control-start, .icon-credit-card, .icon-crop, .icon-cup, .icon-cursor, .icon-cursor-move, .icon-diamond, .icon-direction, .icon-directions, .icon-disc, .icon-dislike, .icon-doc, .icon-docs, .icon-drawer, .icon-drop, .icon-earphones, .icon-earphones-alt, .icon-emotsmile, .icon-energy, .icon-envelope, .icon-envelope-letter, .icon-envelope-open, .icon-equalizer, .icon-event, .icon-exclamation, .icon-eye, .icon-eyeglass, .icon-feed, .icon-film, .icon-fire, .icon-flag, .icon-folder, .icon-folder-alt, .icon-frame, .icon-game-controller, .icon-ghost, .icon-globe, .icon-globe-alt, .icon-graduation, .icon-graph, .icon-grid, .icon-handbag, .icon-heart, .icon-home, .icon-hourglass, .icon-info, .icon-key, .icon-layers, .icon-like, .icon-link, .icon-list, .icon-location-pin, .icon-lock, .icon-lock-open, .icon-login, .icon-logout, .icon-loop, .icon-magic-wand, .icon-magnet, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-map, .icon-menu, .icon-microphone, .icon-minus, .icon-mouse, .icon-music-tone, .icon-music-tone-alt, .icon-mustache, .icon-note, .icon-notebook, .icon-options, .icon-options-vertical, .icon-organization, .icon-paper-clip, .icon-paper-plane, .icon-paypal, .icon-pencil, .icon-people, .icon-phone, .icon-picture, .icon-pie-chart, .icon-pin, .icon-plane, .icon-playlist, .icon-plus, .icon-power, .icon-present, .icon-printer, .icon-puzzle, .icon-question, .icon-refresh, .icon-reload, .icon-rocket, .icon-screen-desktop, .icon-screen-smartphone, .icon-screen-tablet, .icon-settings, .icon-share, .icon-share-alt, .icon-shield, .icon-shuffle, .icon-size-actual, .icon-size-fullscreen, .icon-social-behance, .icon-social-dribbble, .icon-social-dropbox, .icon-social-facebook, .icon-social-foursqare, .icon-social-github, .icon-social-google, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-reddit, .icon-social-skype, .icon-social-soundcloud, .icon-social-spotify, .icon-social-steam, .icon-social-stumbleupon, .icon-social-tumblr, .icon-social-twitter, .icon-social-vkontakte, .icon-social-youtube, .icon-speech, .icon-speedometer, .icon-star, .icon-support, .icon-symbol-female, .icon-symbol-male, .icon-tag, .icon-target, .icon-trash, .icon-trophy, .icon-umbrella, .icon-user, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-vector, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-wallet, .icon-wrench {
+    font-family: simple-line-icons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btnAddToCart:hover, .proBoxInfo .shopify-payment-button__button:hover {
+    color: #fff;
+    background-color: #e09878;
+    border-color: #e09878;
+}
+.velaProBlock .proName a:hover, .velaProBlock .proName a:focus {
+    color: #e09878;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+.velaProBlock.grid:hover .proButton {
+    bottom: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+svg:not(:root) {
+    overflow: hidden; 
+}
+
+.d-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// :focus-visible {
+//     outline: -webkit-focus-ring-color auto 1px;
+// }
+// .product-card__img:hover{
+//     background: url('//cdn.shopify.com/s/files/1/0535/4812/2292/products/1oJbQiUJn1ftvB6FQsSu7MhS84nVekmkg_ef3198e9-9183-414d-b5a9-6e74e4210f0c_180x.jpg?v=1628679423 180w');
+// }

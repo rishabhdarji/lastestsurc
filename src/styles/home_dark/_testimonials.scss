@@ -1,0 +1,225 @@
+/* ==========================================================================
+   14.9 #HOME DARK - TESTIMONIALS
+   ========================================================================== */
+.dark-testimonials {
+   padding-top: 140px;
+
+   @media (max-width: 991px) {
+      padding-top: 70px;
+   }
+
+   .slick-list {
+      margin: 0px -40px;
+
+      @media (max-width: 991px) {
+         margin: 0px -20px;
+      }
+
+      .slick-slide {
+         padding: 0px 40px;
+
+         @media (max-width: 991px) {
+            padding: 0px 20px;
+         }
+      }
+   }
+
+   .slick-prev {
+      position: absolute;
+      top: 50%;
+      left: -150px;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 1499px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc1";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 48px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+
+   .slick-next {
+      position: absolute;
+      top: 50%;
+      right: -150px;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      background: none;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+      outline: none;
+
+      @media (max-width: 1499px) {
+         display: none !important;
+      }
+
+      &:hover {
+
+         &:before {
+            color: #000;
+         }
+      }
+
+      &:before {
+         content: "\ecc3";
+         display: inline-block;
+         font: normal normal normal 1em/1 'LineIconsPro Light';
+         speak: none;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         font-size: 48px;
+         color: #ccc;
+         transition: all 0.3s ease-in;
+         -webkit-transition: all 0.3s ease-in;
+         -moz-transition: all 0.3s ease-in;
+      }
+   }
+}
+
+.dark-testimonials__title {
+   text-align: center;
+   padding: 0px 0px 70px 0px;
+   margin: 0px;
+
+   @media (max-width: 991px) {
+      padding: 0px 0px 40px 0px;
+   }
+}
+
+.dark-testimonial {
+   display: block !important;
+   padding: 60px;
+   border: 1px solid #dbdbdb;
+
+   @media (max-width: 991px) {
+      padding: 30px;
+   }
+}
+
+.dark-testimonial__author {
+   display: flex;
+   align-items: center;
+}
+
+.dark-testimonial__avatar {
+   width: 60px;
+   min-width: 60px;
+   margin-right: 20px;
+
+   @media (max-width: 991px) {
+      width: 52px;
+      min-width: 52px;
+   }
+
+   img {
+      display: block;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+
+      @media (max-width: 991px) {
+         width: 52px;
+         height: 52px;
+      }
+   }
+}
+
+.dark-testimonial__author-icon {
+   margin-left: auto;
+   text-align: right;
+   font-size: 36px;
+   color: #999;
+   padding-left: 20px;
+
+   @media (max-width: 991px) {
+      font-size: 24px;
+   }
+}
+
+.dark-testimonial__author-info {
+
+   > a {
+      font-size: 20px;
+      color: #000;
+      line-height: 1.1;
+
+      @media (max-width: 991px) {
+         font-size: 17px;
+      }
+   }
+
+   p {
+      padding: 3px 0px 0px 0px;
+      margin: 0px;
+      font-size: 16px;
+      color: #999;
+      line-height: 1.1;
+
+      @media (max-width: 991px) {
+         font-size: 14px;
+      }
+
+      a {
+         color: #999;
+      }
+   }
+}
+
+.dark-testimonial__content {
+   color: #000000;
+   font-size: 30px;
+   line-height: 40px;
+   padding: 40px 0px 0px 0px;
+   margin: 0px -20px 0px 0px;
+   position: relative;
+
+   @media (max-width: 1199px) {
+      font-size: 26px;
+      line-height: 36px;
+   }
+
+   @media (max-width: 991px) {
+      font-size: 22px;
+      line-height: 30px;
+      padding: 25px 0px 0px 0px;
+      margin: 0px;
+   }
+
+   a {
+      color: #00ccff;
+   }
+}
